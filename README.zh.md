@@ -8,6 +8,58 @@ DeepSeek Harness 是 DeepSeek AI 开源的插件优先 Agent Harness：模型、
 
 > **开发者预览版**：DSH 迭代很快，可能出现破坏性变更。本仓库是独立社区整理，不代表 DeepSeek AI 或 walkinglabs 的背书。安装第三方插件前请审查源码，并固定 DSH 版本或 commit。
 
+## 快速教程：安装 DSH 并写出第一个插件
+
+### 1. 安装并运行 DeepSeek Harness
+
+先安装当前版本的 [Node.js](https://nodejs.org/)，然后执行：
+
+```sh
+npx @deepseek-ai/dsh web
+```
+
+打开 `http://127.0.0.1:3080`。在 **Settings → Models** 中填写 DeepSeek API Key；再选择一个工作区，即可开始会话。更多步骤见官方 [Web UI 使用指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md)。
+
+### 2. 从源码创建最小插件
+
+当前官方插件开发流程需要先获得 DSH 源码：
+
+```sh
+git clone https://github.com/deepseek-ai/deepseek-harness.git
+cd deepseek-harness
+pnpm install
+pnpm run build
+mkdir -p scratch-plugin/src
+```
+
+创建 `scratch-plugin/src/hello-plugin.ts`：
+
+```ts
+import type { Context } from '@deepseek-ai/cordis'
+
+export const name = 'hello-plugin'
+
+export function apply(ctx: Context) {
+  console.log('[hello-plugin] loaded')
+}
+```
+
+再创建 `scratch-plugin/cordis.yml`。把下方路径替换成在 DSH 源码目录执行 `pwd` 后得到的绝对路径：
+
+```yaml
+- insert:
+    - id: hello
+      name: '/absolute/path/to/deepseek-harness/scratch-plugin/src/hello-plugin.ts'
+```
+
+使用这个 overlay 启动：
+
+```sh
+pnpm dsh web --patch ./scratch-plugin/cordis.yml
+```
+
+DSH 启动后，终端应显示 `[hello-plugin] loaded`。这就是最小的 DSH 插件：导出 `apply(ctx)`，并通过 Cordis 上下文注册能力。若要添加 Agent 可调用的工具，请声明 `export const inject = ['tools']`，再通过官方 DSH 工具 API 注册。完整且随版本更新的写法请查看官方[第一个插件教程](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)和 [Tool 插件教程](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/tool.md)。
+
 ## 快速开始：官方 DSH 资料
 
 - [DeepSeek Harness 官方源码](https://github.com/deepseek-ai/deepseek-harness) - 版本、issue 与兼容性的唯一首要依据。

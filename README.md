@@ -8,6 +8,58 @@ English | [简体中文](README.zh.md)
 
 > **Developer preview** — DSH is changing quickly and may introduce breaking changes. This independent community list is not endorsed by DeepSeek AI or walkinglabs. Review source code and pin a DSH version/commit before installing any third-party plugin. [中文说明](README.zh.md)
 
+## Quick Tutorial — Install DSH and Write Your First Plugin
+
+### 1. Install and run DeepSeek Harness
+
+Install a current [Node.js](https://nodejs.org/) release, then run:
+
+```sh
+npx @deepseek-ai/dsh web
+```
+
+Open `http://127.0.0.1:3080`. In **Settings → Models**, add a DeepSeek API key; then select a workspace before starting a session. The official [Web UI guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md) explains the next steps.
+
+### 2. Create a minimal plugin from source
+
+Plugin development currently starts from an official DSH checkout:
+
+```sh
+git clone https://github.com/deepseek-ai/deepseek-harness.git
+cd deepseek-harness
+pnpm install
+pnpm run build
+mkdir -p scratch-plugin/src
+```
+
+Create `scratch-plugin/src/hello-plugin.ts`:
+
+```ts
+import type { Context } from '@deepseek-ai/cordis'
+
+export const name = 'hello-plugin'
+
+export function apply(ctx: Context) {
+  console.log('[hello-plugin] loaded')
+}
+```
+
+Then create `scratch-plugin/cordis.yml`. Replace the path with the absolute path printed by `pwd` in the DSH checkout:
+
+```yaml
+- insert:
+    - id: hello
+      name: '/absolute/path/to/deepseek-harness/scratch-plugin/src/hello-plugin.ts'
+```
+
+Run the development overlay:
+
+```sh
+pnpm dsh web --patch ./scratch-plugin/cordis.yml
+```
+
+When DSH starts, the terminal should show `[hello-plugin] loaded`. This is the smallest valid DSH plugin: export `apply(ctx)` and register capabilities through the Cordis context. To add an agent-callable tool, declare `export const inject = ['tools']` and register it with the documented DSH tool API. Follow the official [first plugin](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md) and [tool-plugin](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/tool.md) tutorials for the complete, current API.
+
 ## Contents
 
 - [Start Here — Official DSH Resources](#start-here--official-dsh-resources)
