@@ -112,6 +112,93 @@ flowchart TB
 
 The list distinguishes verified DSH plugins from useful but non-plugin resources such as launchers, clients, and ecosystem directories. See the full [inclusion policy](docs/INCLUSION_POLICY.md) for the evidence required before a new entry is added.
 
+### 5. One runtime, different compositions
+
+DSH profiles are plugin compositions rather than separately maintained products. The official base bundle includes model adapters, tools, persistence, sandbox and approval policy, settings, credentials, and telemetry; Web and headless bundles add different entry surfaces. An agent preset can then give a session a different capability set.
+
+```mermaid
+flowchart TB
+  Base["dsh-base\nmodels · tools · persistence · sandbox\napproval · settings · telemetry"]
+  Base --> WebProfile["Web profile\nbrowser application"]
+  Base --> HeadlessProfile["Headless profile\none-shot runner"]
+  Base --> Preset["Agent preset\nper-session capability composition"]
+  Preset --> Loop["Agent loop"]
+  Preset --> Toolset["Toolset"]
+  Preset --> Providers["LLM / filesystem / subagent providers"]
+  Preset --> Policy["Permission & sandbox policy"]
+```
+
+This makes a “mode” primarily a selected plugin graph and policy set. It does not guarantee that every composition is stable or suitable for every task; DSH is still a developer preview.
+
+### 6. Tool calls use one guarded execution pipeline
+
+```mermaid
+flowchart LR
+  Call["Model emits tool call"] --> LoggedCall["Log tool/call"]
+  LoggedCall --> Pre["tools/pre-execute\nhooks · permission · sandbox"]
+  Pre --> Ask{"Approval needed?"}
+  Ask -->|approved| Guards["Monotonic guards"]
+  Ask -->|denied / unavailable| Denied["Skip tool body"]
+  Guards --> Execute["tools/execute\ntimeout · retry · metrics"]
+  Execute --> Body["Tool execute()"]
+  Body --> Post["tools/post-execute\naccept · block · replace"]
+  Denied --> Post
+  Post --> Result["Finalize & log tool/result"]
+  Result --> UI["UI result card"]
+  Result --> Next["Next model request"]
+```
+
+Plugins can insert policy, observability, timeout, or result-handling behavior at documented stages without editing the Agent Loop. The official pipeline also routes Code Mode's dispatched sub-calls through this same path, preserving the approval, sandbox, and logging boundaries.
+
+### 7. Agent turns, steps, and the append-only session log
+
+```mermaid
+sequenceDiagram
+  participant U as User
+  participant A as Agent loop
+  participant P as Prompt assembler
+  participant M as Model
+  participant T as Tool pipeline
+  participant L as Append-only session log
+  U->>A: followup(message)
+  A->>L: turn/start + user/message
+  A->>P: assemble prompt sections + tool schemas
+  P->>M: request
+  M-->>L: assistant/chunk*
+  M-->>L: assistant/message
+  M->>T: tool/call*
+  T-->>L: tool/result*
+  A->>L: step/end
+  alt more input or tool results are owed
+    A->>P: next step
+  else no pending work
+    A->>L: turn/end
+  end
+```
+
+The session log is the model-context source of truth: durable events record turns, messages, tool calls/results, and raw stream chunks. Forking, resuming, replay, transcripts, telemetry, and persistence derive from that stream; model-visible content must be reconstructable from it.
+
+### 8. Multi-agent and workflow extension points
+
+```mermaid
+flowchart TB
+  Parent["Parent agent\nplans, delegates, aggregates"] --> Subagent["Subagent capability seam"]
+  Subagent --> Fresh["Fresh child agent"]
+  Subagent --> Fork["Forked / continued session"]
+  Subagent --> External["External product provider\n(e.g. ACP-backed)"]
+  Parent --> Workflow["Workflow capability"]
+  Workflow --> Parallel["Parallel branches"]
+  Workflow --> Pipeline["Pipeline stages"]
+  Workflow --> Background["Background work"]
+  Fresh --> Events["subagent/* + session/event"]
+  Fork --> Events
+  External --> Events
+  Workflow --> Events
+  Events["Durable session events + live agent events"] --> Inspect["UI, trajectory, replay, telemetry"]
+```
+
+DSH provides a hierarchy-oriented delegation surface and workflow components; providers behind the subagent seam can vary. The key architectural point is replaceability and shared observability, not a claim that DSH has invented a new multi-agent paradigm.
+
 ## Contents
 
 - [Start Here — Official DSH Resources](#start-here--official-dsh-resources)

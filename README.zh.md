@@ -112,6 +112,93 @@ flowchart TB
 
 本仓库会区分“已验证 DSH 插件”与启动器、客户端、生态目录等“有用但非插件”的资源。新增条目需要的证据详见[完整收录规范](docs/INCLUSION_POLICY.md)。
 
+### 5. 同一运行时，不同插件组合
+
+DSH 的 profile 是插件组合，而不是分别维护的多套产品。官方基础 bundle 包含模型适配器、工具、持久化、沙箱与审批策略、设置、凭据和遥测；Web 与 headless bundle 在此基础上增加不同的入口界面；Agent preset 还能为单个会话选择不同的能力集合。
+
+```mermaid
+flowchart TB
+  Base["dsh-base\n模型 · 工具 · 持久化 · 沙箱\n审批 · 设置 · 遥测"]
+  Base --> WebProfile["Web profile\n浏览器应用"]
+  Base --> HeadlessProfile["Headless profile\n一次性运行器"]
+  Base --> Preset["Agent preset\n按会话组合能力"]
+  Preset --> Loop["Agent Loop"]
+  Preset --> Toolset["工具集合"]
+  Preset --> Providers["LLM / 文件系统 / 子 Agent Provider"]
+  Preset --> Policy["权限与沙箱策略"]
+```
+
+因此，“模式”主要是某一套插件图与策略集的选择，而不是另一套独立产品。这不保证每种组合都稳定或适合每项任务；DSH 仍处于开发者预览阶段。
+
+### 6. 工具调用走同一条受控执行流水线
+
+```mermaid
+flowchart LR
+  Call["模型产出工具调用"] --> LoggedCall["记录 tool/call"]
+  LoggedCall --> Pre["tools/pre-execute\nhook · 权限 · 沙箱"]
+  Pre --> Ask{"需要审批？"}
+  Ask -->|已批准| Guards["不可绕过的 guard"]
+  Ask -->|拒绝 / 不可用| Denied["跳过工具主体"]
+  Guards --> Execute["tools/execute\n超时 · 重试 · 指标"]
+  Execute --> Body["工具 execute()"]
+  Body --> Post["tools/post-execute\n接受 · 阻止 · 改写"]
+  Denied --> Post
+  Post --> Result["最终化并记录 tool/result"]
+  Result --> UI["UI 结果卡片"]
+  Result --> Next["下一次模型请求"]
+```
+
+插件可以在官方规定的阶段插入策略、可观测性、超时或结果处理，而无需修改 Agent Loop。官方流水线也让 Code Mode 分派的子调用通过同一条路径，从而保留审批、沙箱和日志边界。
+
+### 7. Agent 的 Turn、Step 与追加式会话日志
+
+```mermaid
+sequenceDiagram
+  participant U as 用户
+  participant A as Agent Loop
+  participant P as Prompt 组装器
+  participant M as 模型
+  participant T as 工具流水线
+  participant L as 追加式会话日志
+  U->>A: followup(message)
+  A->>L: turn/start + user/message
+  A->>P: 组装 Prompt 区块与工具 schema
+  P->>M: request
+  M-->>L: assistant/chunk*
+  M-->>L: assistant/message
+  M->>T: tool/call*
+  T-->>L: tool/result*
+  A->>L: step/end
+  alt 仍有输入或工具结果待处理
+    A->>P: 下一 Step
+  else 没有待处理工作
+    A->>L: turn/end
+  end
+```
+
+会话日志是模型上下文的事实来源：它持久记录 turn、消息、工具调用/结果和原始流式 chunk。分叉、恢复、回放、转录、遥测与持久化都从该事件流派生；任何模型可见内容都必须能从中重建。
+
+### 8. 多 Agent 与 Workflow 扩展接缝
+
+```mermaid
+flowchart TB
+  Parent["父 Agent\n规划、委派、汇总"] --> Subagent["子 Agent 能力接缝"]
+  Subagent --> Fresh["全新子 Agent"]
+  Subagent --> Fork["分叉 / 可继续会话"]
+  Subagent --> External["外部产品 Provider\n（如 ACP 后端）"]
+  Parent --> Workflow["Workflow 能力"]
+  Workflow --> Parallel["并行分支"]
+  Workflow --> Pipeline["流水线阶段"]
+  Workflow --> Background["后台工作"]
+  Fresh --> Events["subagent/* + session/event"]
+  Fork --> Events
+  External --> Events
+  Workflow --> Events
+  Events["持久 Session Event + 实时 Agent Event"] --> Inspect["UI、轨迹、回放、遥测"]
+```
+
+DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接缝后的 provider 可以替换。其架构关键在于可替换性和共享可观测性，而不是声称创造了全新的多 Agent 范式。
+
 ## 快速开始：官方 DSH 资料
 
 - [DeepSeek Harness 官方源码](https://github.com/deepseek-ai/deepseek-harness) - 版本、issue 与兼容性的唯一首要依据。
