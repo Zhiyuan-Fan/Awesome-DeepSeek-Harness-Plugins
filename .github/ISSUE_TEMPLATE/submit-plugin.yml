@@ -1,0 +1,39 @@
+name: Submit a plugin or resource
+description: Suggest an entry for this list.
+title: "[Plugin]: "
+labels: ["new entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: Explain what it adds to DeepSeek Harness.
+    validations:
+      required: true
+  - type: input
+    id: compatibility
+    attributes:
+      label: DSH compatibility
+      placeholder: e.g. dsh >= 0.1.0 or commit abc123
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The project is publicly accessible and directly relevant to DSH.
+          required: true
+        - label: I checked that this entry is not already listed.
+          required: true
