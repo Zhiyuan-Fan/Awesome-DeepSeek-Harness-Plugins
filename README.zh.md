@@ -8,6 +8,24 @@ DeepSeek Harness 是 DeepSeek AI 开源的插件优先 Agent Harness：模型、
 
 > **开发者预览版**：DSH 迭代很快，可能出现破坏性变更。本仓库是独立社区整理，不代表 DeepSeek AI 或 walkinglabs 的背书。安装第三方插件前请审查源码，并固定 DSH 版本或 commit。
 
+```mermaid
+flowchart LR
+  User["开发者 / 用户"] --> Web["DSH Web UI 或 CLI"]
+  Web --> Runtime["DeepSeek Harness 运行时"]
+  Runtime --> Agent["Agent Loop"]
+  Agent --> Model["模型提供方"]
+  Agent --> Tools["工具与技能"]
+  Runtime -. 装载 .-> Plugins["插件"]
+  Plugins --> Tools
+  Plugins --> UI["Web UI 扩展"]
+  Plugins --> State["会话、设置与服务"]
+
+  classDef core fill:#0b65c2,color:#fff,stroke:#084c94;
+  classDef plugin fill:#e6f4ff,color:#083b66,stroke:#4fa3e3;
+  class Runtime,Agent core;
+  class Plugins,UI,State plugin;
+```
+
 ## 快速教程：安装 DSH 并写出第一个插件
 
 ### 1. 安装并运行 DeepSeek Harness
@@ -62,22 +80,37 @@ DSH 启动后，终端应显示 `[hello-plugin] loaded`。这就是最小的 DSH
 
 ### 3. 插件机制如何工作
 
-```text
-cordis.yml overlay
-        │ 装载
-        ▼
-插件模块 ── 导出 ──► name + inject + apply(ctx, config)
-        │                    │
-        │                    ├─ inject：等待所需服务就绪
-        │                    ├─ config：按 schema 校验配置并填充默认值
-        │                    └─ apply：注册工具、命令、UI、事件或服务
-        ▼
-Cordis / DSH 运行时 ──► 将注册项作为 effect 跟踪 ──► 卸载 / HMR 时自动清理
+```mermaid
+flowchart TD
+  Overlay["cordis.yml overlay"] -->|装载| Module["插件模块"]
+  Module --> Contract["name · inject · apply(ctx, config)"]
+  Contract --> Inject["inject：等待所需服务就绪"]
+  Contract --> Config["Config schema：校验配置并填充默认值"]
+  Contract --> Apply["apply：注册能力"]
+  Apply --> Capabilities["工具 · 命令 · 事件 · UI · 服务"]
+  Capabilities --> Runtime["Cordis / DSH 运行时"]
+  Runtime --> Effects["生命周期管理的 effect"]
+  Effects --> Cleanup["卸载或 HMR：自动清理旧注册"]
 ```
 
 DSH 基于 **Cordis**，后者是一个运行时组合框架。插件不只是一个 npm 依赖包，而是 DSH 会装载到运行中上下文的模块。它声明 `name`，可选声明 `inject` 依赖（例如 `['tools']`），并导出 `apply(ctx, config)`。Cordis 会等待 `inject` 所需服务准备完成，校验导出的 `Config` schema 并填充默认值，然后调用 `apply`。
 
 在 `apply` 内，插件可以注册供 Agent 调用的工具、供人使用的命令、设置 schema、事件监听器、Web UI 组件，或提供给其他插件的服务。这些注册是由生命周期管理的 effect：配置修改触发热替换，或插件卸载时，Cordis 会自动移除旧注册。只有当插件自行持有需要显式释放的资源（如定时器、网络连接）时，才使用 `ctx.effect()` 返回清理函数。详见官方[配置指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md)、[服务指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md)及[能力接缝说明](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md)。
+
+### 4. 这个 Awesome 仓库收录什么
+
+```mermaid
+flowchart TB
+  Discover["GitHub 发现\n（近期公开候选）"] --> Verify["DSH 源码级验证"]
+  Verify -->|"清单/package + 官方 DSH 扩展接缝"| Plugin["已验证 DSH 插件"]
+  Verify -->|"明确、可检查的 DSH 集成"| Resource["客户端、启动器、示例或开发资源"]
+  Verify -->|"仅 topic、命名或自称"| Exclude["排除\n（不是 DSH 插件）"]
+  Plugin --> List["本列表的插件分类"]
+  Resource --> List
+  List --> Daily["每日复核\n仅真实变更才提交"]
+```
+
+本仓库会区分“已验证 DSH 插件”与启动器、客户端、生态目录等“有用但非插件”的资源。新增条目需要的证据详见[完整收录规范](docs/INCLUSION_POLICY.md)。
 
 ## 快速开始：官方 DSH 资料
 

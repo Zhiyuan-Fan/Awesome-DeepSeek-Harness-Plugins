@@ -8,6 +8,24 @@ English | [简体中文](README.zh.md)
 
 > **Developer preview** — DSH is changing quickly and may introduce breaking changes. This independent community list is not endorsed by DeepSeek AI or walkinglabs. Review source code and pin a DSH version/commit before installing any third-party plugin. [中文说明](README.zh.md)
 
+```mermaid
+flowchart LR
+  User["Developer / User"] --> Web["DSH Web UI or CLI"]
+  Web --> Runtime["DeepSeek Harness runtime"]
+  Runtime --> Agent["Agent loop"]
+  Agent --> Model["Model provider"]
+  Agent --> Tools["Tools & skills"]
+  Runtime -. loads .-> Plugins["Plugins"]
+  Plugins --> Tools
+  Plugins --> UI["Web UI extensions"]
+  Plugins --> State["Sessions, settings & services"]
+
+  classDef core fill:#0b65c2,color:#fff,stroke:#084c94;
+  classDef plugin fill:#e6f4ff,color:#083b66,stroke:#4fa3e3;
+  class Runtime,Agent core;
+  class Plugins,UI,State plugin;
+```
+
 ## Quick Tutorial — Install DSH and Write Your First Plugin
 
 ### 1. Install and run DeepSeek Harness
@@ -62,22 +80,37 @@ When DSH starts, the terminal should show `[hello-plugin] loaded`. This is the s
 
 ### 3. How the plugin mechanism works
 
-```text
-cordis.yml overlay
-        │ loads
-        ▼
-plugin module ── exports ──► name + inject + apply(ctx, config)
-        │                         │
-        │                         ├─ inject: wait for required services
-        │                         ├─ config: schema-validated settings
-        │                         └─ apply: register tools, commands, UI, events, or services
-        ▼
-Cordis / DSH runtime ──► tracks registrations as effects ──► unload / HMR cleans them up
+```mermaid
+flowchart TD
+  Overlay["cordis.yml overlay"] -->|loads| Module["Plugin module"]
+  Module --> Contract["name · inject · apply(ctx, config)"]
+  Contract --> Inject["inject: wait for required services"]
+  Contract --> Config["Config schema: validate settings and defaults"]
+  Contract --> Apply["apply: register capabilities"]
+  Apply --> Capabilities["Tools · commands · events · UI · services"]
+  Capabilities --> Runtime["Cordis / DSH runtime"]
+  Runtime --> Effects["Lifecycle-managed effects"]
+  Effects --> Cleanup["Unload or HMR: registrations are cleaned up"]
 ```
 
 DSH is built on **Cordis**, a runtime composition framework. A plugin is not merely an npm dependency: it is a module that DSH loads into a live context. The plugin declares a `name`, optionally declares `inject` dependencies such as `['tools']`, and exports `apply(ctx, config)`. Cordis waits until injected services are ready, validates any exported `Config` schema and defaults, then invokes `apply`.
 
 Inside `apply`, the plugin can register a tool for the agent, a human command, a settings schema, event listeners, Web UI components, or a service for other plugins. Registrations are lifecycle-managed effects: on unload or hot replacement after a config edit, Cordis removes old registrations automatically. Use `ctx.effect()` only when your plugin owns a resource needing explicit cleanup, such as a timer or network connection. See the official [configuration guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md), [service guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md), and [capability seams](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md).
+
+### 4. What this awesome list includes
+
+```mermaid
+flowchart TB
+  Discover["GitHub discovery\n(recent public candidates)"] --> Verify["Source-level DSH verification"]
+  Verify -->|"Manifest/package + documented DSH seam"| Plugin["Verified DSH plugin"]
+  Verify -->|"Explicit, inspectable DSH integration"| Resource["Client, launcher, example, or dev resource"]
+  Verify -->|"Topic/name/claim only"| Exclude["Excluded\n(not a DSH plugin)"]
+  Plugin --> List["Plugin categories in this list"]
+  Resource --> List
+  List --> Daily["Daily review\nOnly real changes are committed"]
+```
+
+The list distinguishes verified DSH plugins from useful but non-plugin resources such as launchers, clients, and ecosystem directories. See the full [inclusion policy](docs/INCLUSION_POLICY.md) for the evidence required before a new entry is added.
 
 ## Contents
 
