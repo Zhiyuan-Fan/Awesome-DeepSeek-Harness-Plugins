@@ -60,6 +60,25 @@ pnpm dsh web --patch ./scratch-plugin/cordis.yml
 
 DSH 启动后，终端应显示 `[hello-plugin] loaded`。这就是最小的 DSH 插件：导出 `apply(ctx)`，并通过 Cordis 上下文注册能力。若要添加 Agent 可调用的工具，请声明 `export const inject = ['tools']`，再通过官方 DSH 工具 API 注册。完整且随版本更新的写法请查看官方[第一个插件教程](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md)和 [Tool 插件教程](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/tool.md)。
 
+### 3. 插件机制如何工作
+
+```text
+cordis.yml overlay
+        │ 装载
+        ▼
+插件模块 ── 导出 ──► name + inject + apply(ctx, config)
+        │                    │
+        │                    ├─ inject：等待所需服务就绪
+        │                    ├─ config：按 schema 校验配置并填充默认值
+        │                    └─ apply：注册工具、命令、UI、事件或服务
+        ▼
+Cordis / DSH 运行时 ──► 将注册项作为 effect 跟踪 ──► 卸载 / HMR 时自动清理
+```
+
+DSH 基于 **Cordis**，后者是一个运行时组合框架。插件不只是一个 npm 依赖包，而是 DSH 会装载到运行中上下文的模块。它声明 `name`，可选声明 `inject` 依赖（例如 `['tools']`），并导出 `apply(ctx, config)`。Cordis 会等待 `inject` 所需服务准备完成，校验导出的 `Config` schema 并填充默认值，然后调用 `apply`。
+
+在 `apply` 内，插件可以注册供 Agent 调用的工具、供人使用的命令、设置 schema、事件监听器、Web UI 组件，或提供给其他插件的服务。这些注册是由生命周期管理的 effect：配置修改触发热替换，或插件卸载时，Cordis 会自动移除旧注册。只有当插件自行持有需要显式释放的资源（如定时器、网络连接）时，才使用 `ctx.effect()` 返回清理函数。详见官方[配置指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md)、[服务指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md)及[能力接缝说明](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md)。
+
 ## 快速开始：官方 DSH 资料
 
 - [DeepSeek Harness 官方源码](https://github.com/deepseek-ai/deepseek-harness) - 版本、issue 与兼容性的唯一首要依据。

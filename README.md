@@ -60,6 +60,25 @@ pnpm dsh web --patch ./scratch-plugin/cordis.yml
 
 When DSH starts, the terminal should show `[hello-plugin] loaded`. This is the smallest valid DSH plugin: export `apply(ctx)` and register capabilities through the Cordis context. To add an agent-callable tool, declare `export const inject = ['tools']` and register it with the documented DSH tool API. Follow the official [first plugin](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.md) and [tool-plugin](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/tool.md) tutorials for the complete, current API.
 
+### 3. How the plugin mechanism works
+
+```text
+cordis.yml overlay
+        │ loads
+        ▼
+plugin module ── exports ──► name + inject + apply(ctx, config)
+        │                         │
+        │                         ├─ inject: wait for required services
+        │                         ├─ config: schema-validated settings
+        │                         └─ apply: register tools, commands, UI, events, or services
+        ▼
+Cordis / DSH runtime ──► tracks registrations as effects ──► unload / HMR cleans them up
+```
+
+DSH is built on **Cordis**, a runtime composition framework. A plugin is not merely an npm dependency: it is a module that DSH loads into a live context. The plugin declares a `name`, optionally declares `inject` dependencies such as `['tools']`, and exports `apply(ctx, config)`. Cordis waits until injected services are ready, validates any exported `Config` schema and defaults, then invokes `apply`.
+
+Inside `apply`, the plugin can register a tool for the agent, a human command, a settings schema, event listeners, Web UI components, or a service for other plugins. Registrations are lifecycle-managed effects: on unload or hot replacement after a config edit, Cordis removes old registrations automatically. Use `ctx.effect()` only when your plugin owns a resource needing explicit cleanup, such as a timer or network connection. See the official [configuration guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md), [service guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md), and [capability seams](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md).
+
 ## Contents
 
 - [Start Here — Official DSH Resources](#start-here--official-dsh-resources)
