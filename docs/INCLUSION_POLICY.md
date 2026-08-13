@@ -21,13 +21,14 @@ At least one of the following must be true:
 
 ## Daily discovery procedure
 
-1. Search public GitHub repositories updated in the past 30 days for `dsh-plugin`, `DeepSeek Harness`, and DSH manifest filenames.
+1. Search public GitHub repositories created or updated in the past 48 hours for `dsh-plugin`, `DeepSeek Harness`, and DSH manifest filenames.
 2. Exclude repositories already listed, mirrors, and index-only repositories.
 3. Inspect the tree and manifest/package files; confirm the DSH extension seam against the official source/docs.
-4. Add only verified candidates with a neutral bilingual description and a compatibility note when supplied.
-5. Commit and push only when there is a real change; otherwise leave the repository untouched.
+4. Perform static security triage before inclusion: inspect install/build scripts, dependencies and lockfiles, plugin entrypoints, workflows, and network/process/file-system/credential operations. Reject unresolved risks such as secret exfiltration, opaque payloads, unsafe remote-code execution, approval/sandbox bypasses, or suspicious credential collection. Never execute candidate code or run its install/build scripts.
+5. Add only candidates that pass both DSH verification and this basic security triage, with a neutral bilingual description and a compatibility note when supplied.
+6. Commit and push only when there is a real change; otherwise leave the repository untouched.
 
-Inclusion is a relevance/packaging check, **not** a malware review, reliability certification, or endorsement.
+This is static security triage, **not** a complete malware review, reliability certification, or endorsement.
 
 ## 简体中文
 
@@ -50,10 +51,11 @@ Inclusion is a relevance/packaging check, **not** a malware review, reliability 
 
 ### 每日发现流程
 
-1. 搜索过去 30 天更新的公开 GitHub 仓库：`dsh-plugin`、`DeepSeek Harness` 与 DSH 清单文件名。
+1. 搜索过去 48 小时新建或更新的公开 GitHub 仓库：`dsh-plugin`、`DeepSeek Harness` 与 DSH 清单文件名。
 2. 排除已收录项目、镜像与纯目录仓库。
 3. 检查文件树及清单/package，按官方源码和文档确认 DSH 扩展接缝。
-4. 只添加验证通过的条目；用中英双语中性描述，若项目提供则写明兼容版本。
-5. 仅有实际变更时才提交和推送；没有合格候选则不改仓库。
+4. 收录前进行静态安全初筛：检查安装/构建脚本、依赖及 lockfile、插件入口、工作流，以及网络/进程/文件/凭据操作。若发现密钥外传、混淆 payload、不安全的远程代码执行、绕过审批/沙箱或可疑凭据收集等未解决风险，直接拒绝；绝不执行候选代码，也不运行其安装或构建脚本。
+5. 只有同时通过 DSH 验证与基础安全初筛的条目才会加入；使用中英双语中性描述，若项目提供则写明兼容版本。
+6. 仅有实际变更时才提交和推送；没有合格候选则不改仓库。
 
-收录只代表相关性和打包方式已检查，**不代表**恶意代码审计、稳定性认证或官方背书。
+这属于静态安全初筛，**不代表**完整恶意代码审计、稳定性认证或官方背书。
