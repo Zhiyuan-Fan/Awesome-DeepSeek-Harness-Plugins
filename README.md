@@ -1,56 +1,179 @@
 # Awesome DeepSeek Harness Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of plugins, plugin starters, development resources, and community projects for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness).
+> A curated index of plugins, starters, tools, and primary resources for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness).
 
-DeepSeek Harness is an open-source, plugin-first agent harness from DeepSeek AI. This list helps builders discover and share extensions as the ecosystem takes shape. DSH is currently a developer preview and may introduce breaking changes; check compatibility before installing a plugin.
+[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek AI's open-source, plugin-first agent harness: models, tools, skills, sessions, sandboxes, filesystems, loops, orchestration, and UI can all be composed as plugins.
 
-> **Note**: This is an independent community list, not an official DeepSeek repository. Entries are not endorsements by DeepSeek AI or walkinglabs.
+> **Developer preview** — DSH is changing quickly and may introduce breaking changes. This independent community list is not endorsed by DeepSeek AI or walkinglabs. Review source code and pin a DSH version/commit before installing any third-party plugin.
 
 ## Contents
 
-- [Official](#official)
-- [Get Started](#get-started)
-- [Plugin Development](#plugin-development)
-- [Community Plugins](#community-plugins)
-- [Examples & Starters](#examples--starters)
-- [Discovery](#discovery)
+- [Start Here — Official DSH Resources](#start-here--official-dsh-resources)
+- [Install and Discover Plugins](#install-and-discover-plugins)
+- [Productivity & Agent Workflow](#productivity--agent-workflow)
+- [Context, Memory & Observability](#context-memory--observability)
+- [Tools, Integrations & Automation](#tools-integrations--automation)
+- [Browser, Computer Use & Remote Execution](#browser-computer-use--remote-execution)
+- [Interfaces & Web UI](#interfaces--web-ui)
+- [Developer Tooling](#developer-tooling)
+- [Utilities](#utilities)
+- [Creative & Personal](#creative--personal)
+- [Launchers & Clients](#launchers--clients)
+- [Ecosystem Indexes](#ecosystem-indexes)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Official
+## Start Here — Official DSH Resources
 
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - The official, open-source DeepSeek Harness repository.
-- [DSH on npm](https://www.npmjs.com/package/@deepseek-ai/dsh) - Run the official package with `npx @deepseek-ai/dsh web`.
-- [Cordis](https://github.com/cordiverse/cordis) - The composability framework that powers DSH.
-- [Cordis paper](https://github.com/cordiverse/paper) - *A Programming Paradigm for Spatiotemporal Composability*.
-
-## Get Started
-
-- [Official guide](https://deepseek-harness.github.io/deepseek-harness/guide/) - The official DeepSeek Harness documentation portal.
-- [Run DSH](https://github.com/deepseek-ai/deepseek-harness#run) - Install Node.js and launch the Web UI locally with `npx @deepseek-ai/dsh web`.
-- [Architecture documentation](https://github.com/deepseek-ai/deepseek-harness/tree/master/docs/architecture) - Learn how DSH's plugin-first system is put together.
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Official source repository; the primary reference for releases, issues, and compatibility.
+- [Documentation guide](https://deepseek-harness.github.io/deepseek-harness/guide) - Official documentation portal supplied by the DSH project.
+- [Run DSH](https://github.com/deepseek-ai/deepseek-harness#run) - Start the local Web UI with `npx @deepseek-ai/dsh web`.
+- [Architecture](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md) - How the plugin-first DSH runtime is structured.
+- [Capability seams](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md) - Extension boundaries for DSH capabilities.
+- [Cordis primer](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cordis-primer.md) - Introduction to the underlying composability framework.
 - [Development guide](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/development.md) - Build DSH from source and contribute upstream.
+- [Defensive patterns](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/defensive-patterns.md) - Official guidance for safer extensions.
+- [Testing](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/testing.md) - DSH testing approaches.
+- [Examples](https://github.com/deepseek-ai/deepseek-harness/tree/master/examples) - Official headless, JSON-RPC, MCP-memory, scheduled-web, and Cordis examples.
+- [DeepSeek Harness Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions) - Official feedback and community forum.
+- [DeepSeek Harness Discord](https://discord.gg/UZ7VEPkDUn) - Community chat linked by the official repository.
 
-## Plugin Development
+## Install and Discover Plugins
 
-- [Official plugin documentation](https://github.com/deepseek-ai/deepseek-harness/tree/master/docs/plugins) - The canonical source for plugin APIs, manifests, and extension patterns.
-- [DSH repository examples](https://github.com/deepseek-ai/deepseek-harness/tree/master/examples) - Reference applications and usage examples maintained with DSH.
+- [GitHub topic: `dsh-plugin`](https://github.com/topics/dsh-plugin) - The official recommended GitHub topic for DSH plugin repositories.
+- [Plugin registry](https://github.com/vlln/plugin-registry) - A lightweight repository-plugin console and `make-dsh-plugin` development guide.
+- [Plugin workshop](https://github.com/omdsh-dev/dsh-hub-workshop) - Community plugin-marketplace and registry workshop.
 
-## Community Plugins
+### Curation policy
 
-*No community plugins have been added yet.*
+Entries below were discovered on GitHub on **2026-08-13**, using public repositories created or updated in the preceding 30 days. Each is publicly accessible and either carries the `dsh-plugin` topic or explicitly describes a DSH integration. Inclusion is **metadata-level verification, not a security review or compatibility guarantee**.
 
-Submit a plugin that is publicly available, identifies its supported DSH version or commit range, and explains what it adds. See [CONTRIBUTING.md](CONTRIBUTING.md).
+## Productivity & Agent Workflow
 
-## Examples & Starters
+- [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) - Permanent Codex-style Git worktrees, agent tools, `/worktree`, and per-repository manifests.
+- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) - Codex-style `@file` mentions that search a workspace and attach file contents to prompts.
+- [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) - Open a DSH workspace directly in VS Code from the Web UI.
+- [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) - Anchored plan annotations and structured agent feedback.
+- [dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) - Daily-progress workflow plugin.
+- [dsh-revive](https://github.com/omdsh-dev/dsh-revive) - Resume interrupted sessions with a command, tool, and browser control.
+- [dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) - Five-stage book-to-skill workflow with human approval gates.
+- [dsh-loop](https://github.com/vlln/dsh-loop) - Scheduled loops with a `/loop` command, tool, and activity bar.
+- [dsh-automation](https://github.com/titanwings/dsh-automation) - Run coding tasks in fresh agent sessions on a schedule.
+- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - AgentTeams integration for DSH.
+- [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) - Cross-instance message and event handoff service plus tools.
+- [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) - Restore conversation and workspace state through a persistent change ledger.
+- [dsh-undo](https://github.com/LingLambda/dsh-undo) - Context undo/redo around the last completed agent step.
+- [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) - OpenBiliClaw client integration with recommendation and agent-bridge tools.
 
-*No external starters have been added yet.*
+## Context, Memory & Observability
 
-## Discovery
+- [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) - Cross-session memory, branch awareness, session search, and self-evolving skills.
+- [Nowledge Mem for DSH](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) - Community memory-plugin bundle built around Nowledge Mem.
+- [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) - Index-free cross-agent session search.
+- [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) - Read-only diagnostics for multi-frame zstd session files.
+- [dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) - Local-first failure postmortems for DSH sessions.
+- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - Audit instruction, skill, and tool-schema token cost, duplication, and conflicts.
+- [dsh-trace](https://github.com/vibeinging/dsh-trace) - Export DSH turns, model steps, and tool calls to yiTrace over HTTP.
+- [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) - Durable file, command, HTTP, process, and webhook watches that wake an agent.
+- [dsh-explain](https://github.com/yuezengwu/dsh-explain) - Local-first learning mode with global learning threads and explainable context.
 
-- [GitHub topic: `dsh-plugin`](https://github.com/topics/dsh-plugin) - The official recommended topic for DSH plugin repositories.
-- [DeepSeek Harness Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions) - Feedback, questions, and ecosystem conversations.
-- [DeepSeek Harness Discord](https://discord.gg/UZ7VEPkDUn) - Community chat linked from the official repository.
+## Tools, Integrations & Automation
+
+- [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) - Create and manage sandboxed JavaScript tools with a Monaco-based editor.
+- [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) - On-demand tool discovery and progressive schema disclosure.
+- [dsh-ssh](https://github.com/UynajGI/dsh-ssh) - Remote execution, SFTP filesystem, ProxyJump, subprocess, and PTY support over SSH.
+- [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil design preview and editing integration.
+- [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) - OpenMAIC classrooms, slides, interactive widgets, and Socratic teaching.
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Inline interactive UI components, charts, forms, Mermaid, and an action loop for agent replies.
+- [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) - Adaptive deep-research orchestration workflow.
+- [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) - OpenAI Codex OAuth login and usage-card integration.
+- [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) - Bring Claude Code memory, skills, and configuration into DSH.
+- [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) - BitFun and DSH ACP integration.
+- [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) - Personal content recommendation integration with 22 agent-bridge tools.
+
+## Browser, Computer Use & Remote Execution
+
+- [ego-browser](https://github.com/Fisfzy/ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
+- [dsh-browser](https://github.com/Lum1104/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
+- [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) - Signed-in browser access through Kimi WebBridge tools.
+- [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
+- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) - Accessibility-first macOS computer-use bundle with scoped permissions and freshness checks.
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - Image Q&A, OCR, UI restoration, grounding, pixel diffs, and Web UI support.
+
+## Interfaces & Web UI
+
+- [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
+- [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
+- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
+- [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - Use DSH through grok-build's TUI.
+- [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) - Reduced chat view that emphasizes final outputs.
+- [dsh-working-activity](https://github.com/ccch1mneyyy/dsh-working-activity) - Live status line for model activity and tools.
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) - Desktop notifications for completed turns with outcome and keyword controls.
+- [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) - Browser and prompt notifications for four session states.
+- [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) - Open a specified session or workspace directly from a Web UI URL.
+- [dsh-navbar](https://github.com/vlln/dsh-navbar) - Right-edge conversation-node navigation.
+- [dsh-task-status](https://github.com/vlln/dsh-task-status) - Background task progress and live-output status bar.
+- [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for DSH Web.
+- [dsh-paste-input](https://github.com/lhh010/dsh-paste-input) - Clipboard paste, drag-and-drop, and file-picker enhancements.
+- [dsh-input-history](https://github.com/lhh010/dsh-input-history) - Terminal-style input history navigation.
+- [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) - Session progress, generation speed, interruption, and todo indicators.
+
+## Developer Tooling
+
+- [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
+- [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
+- [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
+- [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) - Read-only local audit of configuration, plugin provenance, sessions, and network exposure.
+- [dsh-scout](https://github.com/omdsh-dev/dsh-scout) - Read-only environment discovery: software, resources, ports, services, hardware, and workspace.
+- [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) - Better decoding for UTF-16LE, UTF-8, GBK, and other Bash output encodings.
+- [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) - Manual/ask-mode approval for DSH tools.
+
+## Utilities
+
+- [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) - Zero-dependency collection for time, encoding, JSON, calculation, CSV, regex, Markdown, diff, statistics, and schema tools.
+- [dsh-tool-time](https://github.com/omdsh-dev/dsh-tool-time) - ISO 8601, IANA timezone, UTC-calendar, and duration utilities.
+- [dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) - Zero-dependency JMESPath-subset JSON querying.
+- [dsh-tool-schema](https://github.com/omdsh-dev/dsh-tool-schema) - JSON Schema validation, path inspection, explanations, and normalization.
+- [dsh-tool-regex](https://github.com/omdsh-dev/dsh-tool-regex) - Safe regex testing, extraction, replacement, and static explanation.
+- [dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) - RFC 4180 parsing, querying, statistics, and conversion.
+- [dsh-tool-markdown](https://github.com/omdsh-dev/dsh-tool-markdown) - HTML/Markdown conversion, GFM table normalization, and table-of-contents generation.
+- [dsh-tool-diff](https://github.com/omdsh-dev/dsh-tool-diff) - Structured text, JSON, CSV, and Markdown comparisons.
+- [dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) - Descriptive statistics, percentiles, distributions, and correlation.
+- [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) - Safe mathematical-expression evaluator.
+- [dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) - Base64, URL, hex, hash, and UUID utilities.
+
+## Creative & Personal
+
+- [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) - Select text, attach annotations, and send structured feedback with a message.
+- [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) - Edit user and system-prompt sections with live preview.
+- [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) - Animated pixel-whale companion for the Web UI.
+- [whale-girl](https://github.com/vlln/whale-girl) - Config-installable desktop-pet repository plugin.
+- [dsh-pet-corner](https://github.com/omdsh-dev/dsh-pet-corner) - Floating pet, image proxy, favorites, and plugin-owned settings.
+- [dsh-fun-weather](https://github.com/omdsh-dev/dsh-fun-weather) - Open-Meteo weather tab and weather-following themes.
+- [dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) - Configurable crypto, FX, A-share, index, and stock ticker.
+- [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) - WebAudio typing ambience with plugin settings.
+- [dsh-minigames](https://github.com/lhh010/dsh-minigames) - Offline side-panel mini-games for wait time.
+
+## Launchers & Clients
+
+- [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) - Lightweight Windows autostart launcher with a minimal WebView2 window.
+- [dsh-launcher](https://github.com/SnowCrescenter-tech/dsh-launcher) - Portable Windows one-click launcher without a Node.js setup.
+- [DSHgo](https://github.com/Asuta/DSHgo) - Windows desktop launcher and profile manager.
+- [dsh-desktop](https://github.com/bruc3van/dsh-desktop) - Electron desktop client with workspace, session-sharing, remote, and tray support.
+- [orbis](https://github.com/icodesign/orbis) - Mobile remote-control client for DeepSeek Harness.
+- [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) - Extensible macOS workbench with native PTY, workspace tools, and isolated preview marketplace.
+
+## Ecosystem Indexes
+
+These are community indexes rather than individual plugins; use them as secondary discovery sources and verify entries yourself.
+
+- [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) - Community-curated DSH plugin list.
+- [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) - Bilingual DSH plugin index.
+- [awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) - Curated DSH extensions and development resources.
+- [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) - DSH plugins, skills, MCP servers, orchestrators, and UIs.
+- [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - Bilingual directory with daily compatibility CI and a scaffold.
+- [oh-my-dsh](https://github.com/wangshunnn/oh-my-dsh) - DSH plugin collection.
+- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) - Large DSH extension ecosystem catalog.
 
 ## Contributing
 
