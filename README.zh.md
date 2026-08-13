@@ -97,7 +97,30 @@ DSH 基于 **Cordis**，后者是一个运行时组合框架。插件不只是�
 
 在 `apply` 内，插件可以注册供 Agent 调用的工具、供人使用的命令、设置 schema、事件监听器、Web UI 组件，或提供给其他插件的服务。这些注册是由生命周期管理的 effect：配置修改触发热替换，或插件卸载时，Cordis 会自动移除旧注册。只有当插件自行持有需要显式释放的资源（如定时器、网络连接）时，才使用 `ctx.effect()` 返回清理函数。详见官方[配置指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md)、[服务指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md)及[能力接缝说明](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md)。
 
-### 4. 这个 Awesome 仓库收录什么
+### 4. 设计与创意工具 / Design & Creative Tools
+
+DSH 的设计类插件可将 Agent 的规划和工具调用连接到视觉理解、设计画布、界面生成与图像工作流。与其他条目一样，安装前请审查源码和所需权限。
+
+```mermaid
+flowchart LR
+  Brief["设计需求\n或源码修改"] --> Agent["DSH Agent"]
+  Agent --> Vision["视觉理解\n图片 · OCR · UI 定位"]
+  Agent --> Canvas["设计画布\n预览 · 编辑 · 检查"]
+  Agent --> GenUI["生成式 UI\n组件 · 图表 · 表单"]
+  Vision --> Feedback["结构化视觉反馈"]
+  Canvas --> Feedback
+  GenUI --> Feedback
+  Feedback --> Agent
+  Agent --> Output["更新后的设计、代码或产物"]
+```
+
+- [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - 多帧预览、交互式画布与受管理编辑器工作台。 / Multi-frame previews, an interactive canvas, and managed editor workbenches.
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - 在回复中渲染交互组件、图表、表单、Mermaid 与 3D 场景，并回传操作事件。 / Inline generated UI with an action loop.
+- [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - 网页预览与元素批注反馈，帮助 Agent 改源码。 / Web preview and annotated visual feedback for source editing.
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - 图片问答、OCR、UI 还原、定位、像素差分与视觉产物。 / Image Q&A, OCR, UI restoration, grounding, and pixel diffs.
+- [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - 以 DSH bundle patch 打包的图像生成集成。 / Image-generation integration packaged for DSH.
+
+### 5. 这个 Awesome 仓库收录什么
 
 ```mermaid
 flowchart TB
@@ -229,6 +252,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - 生产力与 Agent 工作流 / Productivity & Agent Workflow
 - 上下文、记忆与可观测性 / Context, Memory & Observability
 - 工具、集成与自动化 / Tools, Integrations & Automation
+- 设计与创意工具 / Design & Creative Tools
 - 浏览器、计算机操作与远程执行 / Browser, Computer Use & Remote Execution
 - 终端与 Web 界面 / Interfaces & Web UI
 - 开发工具 / Developer Tooling

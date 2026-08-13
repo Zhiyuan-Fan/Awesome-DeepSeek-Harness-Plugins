@@ -206,6 +206,7 @@ DSH provides a hierarchy-oriented delegation surface and workflow components; pr
 - [Productivity & Agent Workflow](#productivity--agent-workflow)
 - [Context, Memory & Observability](#context-memory--observability)
 - [Tools, Integrations & Automation](#tools-integrations--automation)
+- [Design & Creative Tools](#design--creative-tools)
 - [Browser, Computer Use & Remote Execution](#browser-computer-use--remote-execution)
 - [Interfaces & Web UI](#interfaces--web-ui)
 - [Developer Tooling](#developer-tooling)
@@ -275,23 +276,41 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) - Create and manage sandboxed JavaScript tools with a Monaco-based editor.
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) - On-demand tool discovery and progressive schema disclosure.
 - [dsh-ssh](https://github.com/UynajGI/dsh-ssh) - Remote execution, SFTP filesystem, ProxyJump, subprocess, and PTY support over SSH.
-- [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil design preview and editing integration.
 - [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) - OpenMAIC classrooms, slides, interactive widgets, and Socratic teaching.
-- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Inline interactive UI components, charts, forms, Mermaid, and an action loop for agent replies.
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) - Adaptive deep-research orchestration workflow.
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) - OpenAI Codex OAuth login and usage-card integration.
 - [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) - Bring Claude Code memory, skills, and configuration into DSH.
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) - BitFun and DSH ACP integration.
-- [dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) - Personal content recommendation integration with 22 agent-bridge tools.
+
+## Design & Creative Tools
+
+DSH design plugins can connect an agent's planning and tool use to visual inspection, canvas editing, generated UI, and image workflows. As with every listing here, install only after reviewing the source and its permissions.
+
+```mermaid
+flowchart LR
+  Brief["Design brief\nor source change"] --> Agent["DSH agent"]
+  Agent --> Vision["Visual understanding\nimage · OCR · UI grounding"]
+  Agent --> Canvas["Design canvas\npreview · edit · inspect"]
+  Agent --> GenUI["Generated UI\ncomponents · charts · forms"]
+  Vision --> Feedback["Structured visual feedback"]
+  Canvas --> Feedback
+  GenUI --> Feedback
+  Feedback --> Agent
+  Agent --> Output["Updated design, code, or artifact"]
+```
+
+- [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil integration with multi-frame previews, an interactive canvas, and managed editor workbenches.
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Render interactive components, charts, forms, Mermaid, and 3D scenes inline in replies with an action loop back to the agent.
+- [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - Image Q&A, OCR, UI restoration, grounding, pixel diffs, and visual artifacts for DSH.
+- [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - DSH image-generation integration packaged with a DSH bundle patch.
 
 ## Browser, Computer Use & Remote Execution
 
 - [ego-browser](https://github.com/Fisfzy/ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
 - [dsh-browser](https://github.com/Lum1104/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) - Signed-in browser access through Kimi WebBridge tools.
-- [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
 - [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) - Accessibility-first macOS computer-use bundle with scoped permissions and freshness checks.
-- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - Image Q&A, OCR, UI restoration, grounding, pixel diffs, and Web UI support.
 
 ## Interfaces & Web UI
 
