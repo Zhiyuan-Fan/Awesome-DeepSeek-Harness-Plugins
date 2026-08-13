@@ -1,10 +1,12 @@
 # Awesome DeepSeek Harness Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+English | [简体中文](README.zh.md)
+
 > A curated index of plugins, starters, tools, and primary resources for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness).
 
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek AI's open-source, plugin-first agent harness: models, tools, skills, sessions, sandboxes, filesystems, loops, orchestration, and UI can all be composed as plugins.
 
-> **Developer preview** — DSH is changing quickly and may introduce breaking changes. This independent community list is not endorsed by DeepSeek AI or walkinglabs. Review source code and pin a DSH version/commit before installing any third-party plugin.
+> **Developer preview** — DSH is changing quickly and may introduce breaking changes. This independent community list is not endorsed by DeepSeek AI or walkinglabs. Review source code and pin a DSH version/commit before installing any third-party plugin. [中文说明](README.zh.md)
 
 ## Contents
 
@@ -46,7 +48,7 @@
 
 ### Curation policy
 
-Entries below were discovered on GitHub on **2026-08-13**, using public repositories created or updated in the preceding 30 days. Each is publicly accessible and either carries the `dsh-plugin` topic or explicitly describes a DSH integration. Inclusion is **metadata-level verification, not a security review or compatibility guarantee**.
+The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **not enough** for an entry in this list. Every new plugin must meet the source-level verification policy in [INCLUSION_POLICY.md](docs/INCLUSION_POLICY.md): a real DSH plugin manifest/package or a verifiable, official DSH extension seam. Discovery runs daily, but only verified candidates are added. Inclusion is not a security audit or a compatibility guarantee.
 
 ## Productivity & Agent Workflow
 

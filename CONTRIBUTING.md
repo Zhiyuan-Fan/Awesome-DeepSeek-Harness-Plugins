@@ -1,10 +1,12 @@
 # Contributing
 
+English | [简体中文](CONTRIBUTING.zh.md)
+
 Thanks for helping make this list useful.
 
 ## Before submitting
 
-An entry should be directly useful to people building with DeepSeek Harness. It must:
+An entry should be directly useful to people building with DeepSeek Harness. It must satisfy the [source-level DSH verification policy](docs/INCLUSION_POLICY.md), not only use a `dsh-` name or the `dsh-plugin` topic.
 
 - Be publicly accessible and reasonably maintained.
 - Clearly identify itself as a DSH plugin, starter, example, or development resource.
@@ -16,7 +18,7 @@ An entry should be directly useful to people building with DeepSeek Harness. It 
   - [Project](https://example.com) - What it provides and its DSH compatibility.
   ```
 
-Do not submit closed-source products with no DSH integration, duplicated links, promotional copy, or repositories that contain secrets, malware, or unclear licensing.
+Do not submit closed-source products with no DSH integration, duplicated links, promotional copy, topic-only claims, mirrors, or repositories that contain secrets, malware, or unclear licensing.
 
 ## Pull requests
 
