@@ -261,6 +261,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Context, Memory & Observability
 
+- [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - Offline, deterministic replacement for DSH's basic compaction seam, with recall tools for the append-only session log.
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) - Cross-session memory, branch awareness, session search, and self-evolving skills.
 - [Nowledge Mem for DSH](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) - Community memory-plugin bundle built around Nowledge Mem.
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) - Index-free cross-agent session search.
@@ -304,6 +305,8 @@ flowchart LR
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - Image Q&A, OCR, UI restoration, grounding, pixel diffs, and visual artifacts for DSH.
 - [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - DSH image-generation integration packaged with a DSH bundle patch.
+- [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - Inline interactive HTML cards rendered in a sandboxed iframe with a constrained CSP and workspace export.
+- [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - Same-origin, size- and magic-byte-checked image paste/drop uploads saved under the active session workspace.
 
 ## Browser, Computer Use & Remote Execution
 

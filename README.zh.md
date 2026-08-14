@@ -119,6 +119,8 @@ flowchart LR
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - 网页预览与元素批注反馈，帮助 Agent 改源码。 / Web preview and annotated visual feedback for source editing.
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) - 图片问答、OCR、UI 还原、定位、像素差分与视觉产物。 / Image Q&A, OCR, UI restoration, grounding, and pixel diffs.
 - [dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) - 以 DSH bundle patch 打包的图像生成集成。 / Image-generation integration packaged for DSH.
+- [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - 在受限 CSP 的沙箱 iframe 中渲染行内交互 HTML 卡片，并导出到工作区。 / Inline interactive HTML cards in a sandboxed iframe with constrained CSP and workspace export.
+- [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - 仅同源、具备大小与图片魔数校验的粘贴/拖放上传，保存到当前会话工作区。 / Same-origin image paste/drop uploads with size and magic-byte checks, saved in the active session workspace.
 
 ### 5. 这个 Awesome 仓库收录什么
 
@@ -260,6 +262,12 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - 创意与个性化 / Creative & Personal
 - 启动器与客户端（不是插件）/ Launchers & Clients (not plugins)
 - 生态目录（不是插件）/ Ecosystem Indexes (not plugins)
+
+### 本次已验证新增 / Newly verified in this update
+
+- [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - 离线、确定性的 DSH 基础上下文压缩替代实现，并提供 append-only 会话日志的回溯工具。 / Offline deterministic replacement for the DSH basic compaction seam, with append-only-log recall tools.
+- [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) - 受限 CSP 的沙箱可视化卡片。 / Sandboxed visualization cards with a constrained CSP.
+- [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - 带同源、大小与图片类型检查的工作区图片上传。 / Workspace image upload with same-origin, size, and image-type checks.
 
 ## 贡献
 
