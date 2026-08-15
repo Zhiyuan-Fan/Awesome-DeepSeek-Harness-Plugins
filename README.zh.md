@@ -275,8 +275,6 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-image-to-path](https://github.com/cesaryike/dsh-image-to-path) - 带同源、大小与图片类型检查的工作区图片上传。 / Workspace image upload with same-origin, size, and image-type checks.
 - [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - 保留原生界面的同时，提供两档工具调用卡片与白话说明。 / Two-mode tool-call cards with plain-language explanations while preserving the native view.
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - 在本地浏览器保存主题色、壁纸、透明度与模糊度设置。 / Local-browser theme color, wallpaper, opacity, and blur customization.
-- [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 对导出的 `session-telemetry/record` 副本脱敏已支持的秘密模式，不改写权威会话日志；以 DSH 提交 `47f943859bef60e4160492346772ded9b24f765a` 为审计基线，并用 `dsh-session-telemetry` rc.6 实测。 / Redacts supported secret patterns from exported telemetry copies without changing the canonical session log; audited against DSH commit `47f943859bef60e4160492346772ded9b24f765a` and tested with `dsh-session-telemetry` rc.6.
-- [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - 将每轮工具结果与启发式验证信号摘要写入本地 JSONL，不保存提示词、工具参数或结果正文；以 DSH 提交 `47f943859bef60e4160492346772ded9b24f765a` 为审计基线，并用 `dsh-session` rc.6 实测。 / Writes local JSONL summaries of per-turn tool outcomes and heuristic verification signals without storing prompts, tool arguments, or result text; audited against DSH commit `47f943859bef60e4160492346772ded9b24f765a` and tested with `dsh-session` rc.6.
 
 ## 贡献
 
