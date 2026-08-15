@@ -61,7 +61,6 @@
 | [url-manager](https://github.com/Piccolo123/url-manager) | 提供兼容 DSH 的技能，用于收藏、分类、搜索与共享网页资源。 | [![GitHub stars](https://img.shields.io/github/stars/Piccolo123/url-manager?style=flat&label=stars)](https://github.com/Piccolo123/url-manager/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | 增加符号级代码大纲、持久索引，以及词法或向量辅助搜索。 | [![GitHub stars](https://img.shields.io/github/stars/lonelymoon87/dsh-code-intel?style=flat&label=stars)](https://github.com/lonelymoon87/dsh-code-intel/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) | 提供用于收藏、整理、搜索与共享 URL 集合的 MCP 服务端。 | [![GitHub stars](https://img.shields.io/github/stars/Piccolo123/url-manager-mcp?style=flat&label=stars)](https://github.com/Piccolo123/url-manager-mcp/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
-| [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。 | [![GitHub stars](https://img.shields.io/github/stars/AbnerAI/dsh-monitor?style=flat&label=stars)](https://github.com/AbnerAI/dsh-monitor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 会话与存储
 
@@ -95,6 +94,7 @@
 | [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | 根据文件、命令、HTTP、进程和 Webhook 条件持久唤醒智能体。 | [![GitHub stars](https://img.shields.io/github/stars/fuhefei/dsh-sentinel?style=flat&label=stars)](https://github.com/fuhefei/dsh-sentinel/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) | 让委派的子智能体在指定工作目录中运行，并提供配套预设补丁。 | [![GitHub stars](https://img.shields.io/github/stars/lynx-gt/dsh-subagent-cwd?style=flat&label=stars)](https://github.com/lynx-gt/dsh-subagent-cwd/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-loop](https://github.com/vlln/dsh-loop) | 通过聊天命令、工具和活动指示器提供定时智能体循环。 | [![GitHub stars](https://img.shields.io/github/stars/vlln/dsh-loop?style=flat&label=stars)](https://github.com/vlln/dsh-loop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | 通过持久后台监视器检测新的 NDJSON 收件箱内容或命令输出变化，并唤醒 DSH 智能体。 | [![GitHub stars](https://img.shields.io/github/stars/AbnerAI/dsh-monitor?style=flat&label=stars)](https://github.com/AbnerAI/dsh-monitor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 运行时与沙箱
 
