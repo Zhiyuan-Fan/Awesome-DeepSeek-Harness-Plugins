@@ -150,6 +150,7 @@
 
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
+| [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) | 将 DSH 接入 Timeline Studio，支持工程检查、语义编辑预演、事务式 `.timeline` 修改及经过验证的 MP4 渲染。 | [![GitHub stars](https://img.shields.io/github/stars/MartinDelophy/dsh-timeline-studio-plugin?style=flat&label=stars)](https://github.com/MartinDelophy/dsh-timeline-studio-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-browser](https://github.com/Lum1104/dsh-browser) | 通过 Chrome 侧边栏让 DeepSeek Harness 直接操作浏览器。 | [![GitHub stars](https://img.shields.io/github/stars/Lum1104/dsh-browser?style=flat&label=stars)](https://github.com/Lum1104/dsh-browser/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 在 VS Code 或其他配置好的编辑器中打开当前 DSH 工作区。 | [![GitHub stars](https://img.shields.io/github/stars/omdsh-dev/dsh-open-in-vscode?style=flat&label=stars)](https://github.com/omdsh-dev/dsh-open-in-vscode/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | 支持多个 DeepSeek Harness 实例之间传递消息与事件。 | [![GitHub stars](https://img.shields.io/github/stars/Chinesezjc/dsh-interconnect?style=flat&label=stars)](https://github.com/Chinesezjc/dsh-interconnect/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
