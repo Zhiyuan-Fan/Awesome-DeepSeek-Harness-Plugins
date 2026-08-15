@@ -179,6 +179,7 @@ Projects in each section are ranked by GitHub stars, then by verified reference 
 | [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) | Adds a sidebar index for jumping directly to individual conversation turns. | [![GitHub stars](https://img.shields.io/github/stars/Simon314620/dsh-turn-index?style=flat&label=stars)](https://github.com/Simon314620/dsh-turn-index/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 | [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) | Adds arbitrary local-file uploads and attachment management to the DSH Web composer. | [![GitHub stars](https://img.shields.io/github/stars/l541402398/dsh-file-uploads?style=flat&label=stars)](https://github.com/l541402398/dsh-file-uploads/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
+| [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | Adds the DeepSeek Harness homepage background — WebGL fluid light, dot-line grid and a digital point-cloud whale — to DSH Web, with dark and light palettes. | [![GitHub stars](https://img.shields.io/github/stars/yushi-xxh/dsh-homepage-skin?style=flat&label=stars)](https://github.com/yushi-xxh/dsh-homepage-skin/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 ## Integrations
 
 | Project | Description | Stars | Referenced by |
