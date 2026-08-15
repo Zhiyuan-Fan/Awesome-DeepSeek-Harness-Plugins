@@ -260,8 +260,13 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - 开发工具 / Developer Tooling
 - 实用工具 / Utilities
 - 创意与个性化 / Creative & Personal
+- 游戏与游玩 / Games & Play
 - 启动器与客户端（不是插件）/ Launchers & Clients (not plugins)
 - 生态目录（不是插件）/ Ecosystem Indexes (not plugins)
+
+### 游戏与游玩 / Games & Play
+
+- [dsh-minigames](https://github.com/lhh010/dsh-minigames) - DSH Web 右侧离线小游戏面板，包含恐龙跳一跳、俄罗斯方块、坦克大战、五子棋、扫雷等 18 款游戏。 / An offline DSH Web side panel with 18 mini-games, including Dino, Tetris, Tanks, Gomoku, and Minesweeper.
 
 ### 近期通过核验的新增 / Recently verified additions
 
