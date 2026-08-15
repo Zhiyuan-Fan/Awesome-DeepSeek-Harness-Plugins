@@ -61,6 +61,7 @@
 | [url-manager](https://github.com/Piccolo123/url-manager) | 提供兼容 DSH 的技能，用于收藏、分类、搜索与共享网页资源。 | [![GitHub stars](https://img.shields.io/github/stars/Piccolo123/url-manager?style=flat&label=stars)](https://github.com/Piccolo123/url-manager/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | 增加符号级代码大纲、持久索引，以及词法或向量辅助搜索。 | [![GitHub stars](https://img.shields.io/github/stars/lonelymoon87/dsh-code-intel?style=flat&label=stars)](https://github.com/lonelymoon87/dsh-code-intel/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) | 提供用于收藏、整理、搜索与共享 URL 集合的 MCP 服务端。 | [![GitHub stars](https://img.shields.io/github/stars/Piccolo123/url-manager-mcp?style=flat&label=stars)](https://github.com/Piccolo123/url-manager-mcp/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。 | [![GitHub stars](https://img.shields.io/github/stars/AbnerAI/dsh-monitor?style=flat&label=stars)](https://github.com/AbnerAI/dsh-monitor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 会话与存储
 
