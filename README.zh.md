@@ -98,6 +98,7 @@ DSH 基于 **Cordis**，后者是一个运行时组合框架。插件不只是�
 在 `apply` 内，插件可以注册供 Agent 调用的工具、供人使用的命令、设置 schema、事件监听器、Web UI 组件，或提供给其他插件的服务。这些注册是由生命周期管理的 effect：配置修改触发热替换，或插件卸载时，Cordis 会自动移除旧注册。只有当插件自行持有需要显式释放的资源（如定时器、网络连接）时，才使用 `ctx.effect()` 返回清理函数。详见官方[配置指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/config.md)、[服务指南](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/framework/service.md)及[能力接缝说明](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.md)。
 
 ### 4. 设计与创意工具 / Design & Creative Tools
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - 完整 reverse-skill（85 个 SKILL.md）的 DeepSeek Harness 插件：逆向工程、授权渗透测试与安全研究的技能路由包。
 
 DSH 的设计类插件可将 Agent 的规划和工具调用连接到视觉理解、设计画布、界面生成与图像工作流。与其他条目一样，安装前请审查源码和所需权限。
 
