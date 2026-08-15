@@ -250,7 +250,7 @@
 | [dsh-mcp-manager](https://github.com/Js2Hou/dsh-mcp-manager) | 增加用于新增、编辑、测试、启用和停用 MCP 服务器的 DSH 设置面板。 | [![GitHub stars](https://img.shields.io/github/stars/Js2Hou/dsh-mcp-manager?style=flat&label=stars)](https://github.com/Js2Hou/dsh-mcp-manager/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [obsidian-dsh-plugin](https://github.com/ubttttt/obsidian-dsh-plugin) | 在 Obsidian 中嵌入 DSH 聊天，并将选中的笔记文本发送到可配置的 Headless 智能体工作区。 | [![GitHub stars](https://img.shields.io/github/stars/ubttttt/obsidian-dsh-plugin?style=flat&label=stars)](https://github.com/ubttttt/obsidian-dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-wechat-maid](https://github.com/Bonny0430/dsh-wechat-maid) | 将个人微信聊天接入 DSH 会话，提供双向镜像、定时任务、主动消息与可选桌宠。 | [![GitHub stars](https://img.shields.io/github/stars/Bonny0430/dsh-wechat-maid?style=flat&label=stars)](https://github.com/Bonny0430/dsh-wechat-maid/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
-- [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
+| [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) | 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。 | [![GitHub stars](https://img.shields.io/github/stars/cdxiaodong/dsh-island?style=flat&label=stars)](https://github.com/cdxiaodong/dsh-island/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 开发与运维
 
