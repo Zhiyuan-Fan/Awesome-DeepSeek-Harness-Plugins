@@ -179,6 +179,7 @@
 | [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) | 增加侧栏轮次索引，可直接跳转到会话中的指定轮次。 | [![GitHub stars](https://img.shields.io/github/stars/Simon314620/dsh-turn-index?style=flat&label=stars)](https://github.com/Simon314620/dsh-turn-index/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) | 为 DSH Web 输入区增加任意本地文件上传与附件管理。 | [![GitHub stars](https://img.shields.io/github/stars/l541402398/dsh-file-uploads?style=flat&label=stars)](https://github.com/l541402398/dsh-file-uploads/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | 给 DSH Web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体光效、点线网格与数字点云鲸鱼，深浅双主题。 | [![GitHub stars](https://img.shields.io/github/stars/yushi-xxh/dsh-homepage-skin?style=flat&label=stars)](https://github.com/yushi-xxh/dsh-homepage-skin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 ## 集成
 
 | Project | 一句话简介 | Stars | 引用网页 |
