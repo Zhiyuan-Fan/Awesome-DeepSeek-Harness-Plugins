@@ -179,6 +179,7 @@
 | [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) | 增加可直接打开指定 DSH 会话或工作区的 URL 深链。 | [![GitHub stars](https://img.shields.io/github/stars/qyw233/dsh-deeplink?style=flat&label=stars)](https://github.com/qyw233/dsh-deeplink/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) | 增加侧栏轮次索引，可直接跳转到会话中的指定轮次。 | [![GitHub stars](https://img.shields.io/github/stars/Simon314620/dsh-turn-index?style=flat&label=stars)](https://github.com/Simon314620/dsh-turn-index/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) | 为 DSH Web 输入区增加任意本地文件上传与附件管理。 | [![GitHub stars](https://img.shields.io/github/stars/l541402398/dsh-file-uploads?style=flat&label=stars)](https://github.com/l541402398/dsh-file-uploads/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | 为 DSH Web 添加适配深浅主题的背景，包含 WebGL 流体光效、点线网格与点云鲸鱼。 | [![GitHub stars](https://img.shields.io/github/stars/yushi-xxh/dsh-homepage-skin?style=flat&label=stars)](https://github.com/yushi-xxh/dsh-homepage-skin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
