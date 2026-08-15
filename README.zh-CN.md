@@ -94,6 +94,7 @@
 | [dsh-undo](https://github.com/LingLambda/dsh-undo) | 在已完成的智能体步骤处提供可恢复的上下文撤销与重做。 | [![GitHub stars](https://img.shields.io/github/stars/LingLambda/dsh-undo?style=flat&label=stars)](https://github.com/LingLambda/dsh-undo/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-memento](https://github.com/PerryLink/dsh-memento) | 增加有容量边界、需审批且可审计的 SQLite 跨会话记忆。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-memento?style=flat&label=stars)](https://github.com/PerryLink/dsh-memento/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 无需维护额外索引，即可搜索 DSH 与其他智能体会话日志。 | [![GitHub stars](https://img.shields.io/github/stars/Tieboyh/dsh-session-search?style=flat&label=stars)](https://github.com/Tieboyh/dsh-session-search/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-memory-plugin-traex](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin-traex) | 基于 OpenViking 上下文数据库的 DSH 自演化上下文/记忆插件：将会话记忆、知识 RAG 与技能统一在一个存储/检索层。位于 OpenViking monorepo 中，故下方 Stars 徽章为该仓库的 star 数。 | [![GitHub stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat&label=stars)](https://github.com/volcengine/OpenViking/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 循环与调度
 
