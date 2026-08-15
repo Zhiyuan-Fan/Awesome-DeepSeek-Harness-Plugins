@@ -335,6 +335,7 @@ flowchart LR
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) - Right-edge conversation-node navigation.
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) - Background task progress and live-output status bar.
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for DSH Web.
+- [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - One-click collapse of every expanded section in the Web UI (Think rows, tool cards) with a live count and a customizable hotkey. Compatible with DSH 0.1.0-rc.6.
 - [dsh-paste-input](https://github.com/lhh010/dsh-paste-input) - Clipboard paste, drag-and-drop, and file-picker enhancements.
 - [dsh-input-history](https://github.com/lhh010/dsh-input-history) - Terminal-style input history navigation.
 - [dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) - Session progress, generation speed, interruption, and todo indicators.
