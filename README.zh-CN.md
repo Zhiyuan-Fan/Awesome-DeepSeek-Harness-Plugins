@@ -94,6 +94,7 @@
 | [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) | 根据文件、命令、HTTP、进程和 Webhook 条件持久唤醒智能体。 | [![GitHub stars](https://img.shields.io/github/stars/fuhefei/dsh-sentinel?style=flat&label=stars)](https://github.com/fuhefei/dsh-sentinel/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) | 让委派的子智能体在指定工作目录中运行，并提供配套预设补丁。 | [![GitHub stars](https://img.shields.io/github/stars/lynx-gt/dsh-subagent-cwd?style=flat&label=stars)](https://github.com/lynx-gt/dsh-subagent-cwd/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-loop](https://github.com/vlln/dsh-loop) | 通过聊天命令、工具和活动指示器提供定时智能体循环。 | [![GitHub stars](https://img.shields.io/github/stars/vlln/dsh-loop?style=flat&label=stars)](https://github.com/vlln/dsh-loop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | 通过持久后台监视器检测新的 NDJSON 收件箱内容或命令输出变化，并唤醒 DSH 智能体。 | [![GitHub stars](https://img.shields.io/github/stars/AbnerAI/dsh-monitor?style=flat&label=stars)](https://github.com/AbnerAI/dsh-monitor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 运行时与沙箱
 
