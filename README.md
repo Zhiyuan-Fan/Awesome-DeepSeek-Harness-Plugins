@@ -317,6 +317,8 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
+- [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
 - [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) - Claude Code-style full-screen terminal interface.
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - Terminal UI for DSH.
