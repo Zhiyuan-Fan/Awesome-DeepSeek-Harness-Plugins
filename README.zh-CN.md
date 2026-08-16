@@ -126,6 +126,7 @@
 | [dsh-plugin-nonurgent](https://github.com/BXY-Create/dsh-plugin-nonurgent) | 将非紧急任务排入可配置时段，为未完成会话保存检查点并在之后续跑。 | [![GitHub stars](https://img.shields.io/github/stars/BXY-Create/dsh-plugin-nonurgent?style=flat&label=stars)](https://github.com/BXY-Create/dsh-plugin-nonurgent/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-round-table](https://github.com/vuchisu069-source/dsh-round-table) | 增加多 Agent 群聊，支持手动点名、全桌轮询、接力链、暂停控制与受限轮次。 | [![GitHub stars](https://img.shields.io/github/stars/vuchisu069-source/dsh-round-table?style=flat&label=stars)](https://github.com/vuchisu069-source/dsh-round-table/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) | 通过持久后台监视器检测新的 NDJSON 收件箱内容或命令输出变化，并唤醒 DSH 智能体。 | [![GitHub stars](https://img.shields.io/github/stars/AbnerAI/dsh-monitor?style=flat&label=stars)](https://github.com/AbnerAI/dsh-monitor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) | 证据优先的自进化控制器：有界生成 Cordis 候选插件，一次性真实 Loader 隔离准入，Harbor 评估，并保留可审计的日志化谱系。 | [![GitHub stars](https://img.shields.io/github/stars/timwhitez/dsh-self-evolving?style=flat&label=stars)](https://github.com/timwhitez/dsh-self-evolving/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 运行时与沙箱
 
