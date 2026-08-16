@@ -310,6 +310,7 @@
 | [dsh-task-notify](https://github.com/yangzhe1991/dsh-task-notify) | 在回合或后台任务结束时播放完成提示音，并更新浏览器标签标题。 | [![GitHub stars](https://img.shields.io/github/stars/yangzhe1991/dsh-task-notify?style=flat&label=stars)](https://github.com/yangzhe1991/dsh-task-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-desktop-shortcut](https://github.com/Yvesgao/dsh-desktop-shortcut) | 创建 Windows 桌面快捷方式，用于启动配置的本地 DSH 服务并在浏览器中打开。 | [![GitHub stars](https://img.shields.io/github/stars/Yvesgao/dsh-desktop-shortcut?style=flat&label=stars)](https://github.com/Yvesgao/dsh-desktop-shortcut/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-sound-notify](https://github.com/Zyy1997/dsh-sound-notify) | 在 DSH 回合完成或智能体开始等待审批时播放可配置的宿主端提示音。 | [![GitHub stars](https://img.shields.io/github/stars/Zyy1997/dsh-sound-notify?style=flat&label=stars)](https://github.com/Zyy1997/dsh-sound-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) | 为每个生命周期环节（启动、工具调用、命令、等待审批、回合完成、空闲）播放专属提示音，Web Audio 实时合成（零音频文件），外加一个呼吸状态点。 | [![GitHub stars](https://img.shields.io/github/stars/Laplace-bit/dsh-bell-notify?style=flat&label=stars)](https://github.com/Laplace-bit/dsh-bell-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 贡献
 
