@@ -324,6 +324,7 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for remote, multi-user DSH Web access, with HTTPS, quotas, sandbox restrictions, and audit logs.
 - [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
 - [dsh-tui](https://github.com/orriduck/dsh-tui) - Small session-aware terminal UI.
@@ -345,6 +346,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [Code2Skill](https://github.com/leechen298/Code2Skill) - DSH bundle of three skills that generate and review Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
