@@ -251,6 +251,7 @@
 | [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) | 将 DSH 接入 Timeline Studio，提供工程检查、语义编辑预演、事务式时间线修改与 MP4 渲染。 | [![GitHub stars](https://img.shields.io/github/stars/MartinDelophy/dsh-timeline-studio-plugin?style=flat&label=stars)](https://github.com/MartinDelophy/dsh-timeline-studio-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [obsidian-dsh-plugin](https://github.com/ubttttt/obsidian-dsh-plugin) | 在 Obsidian 中嵌入 DSH 聊天，并将选中的笔记文本发送到可配置的 Headless 智能体工作区。 | [![GitHub stars](https://img.shields.io/github/stars/ubttttt/obsidian-dsh-plugin?style=flat&label=stars)](https://github.com/ubttttt/obsidian-dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-wechat-maid](https://github.com/Bonny0430/dsh-wechat-maid) | 将个人微信聊天接入 DSH 会话，提供双向镜像、定时任务、主动消息与可选桌宠。 | [![GitHub stars](https://img.shields.io/github/stars/Bonny0430/dsh-wechat-maid?style=flat&label=stars)](https://github.com/Bonny0430/dsh-wechat-maid/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-island](https://github.com/cdxiaodong/dsh-island) | 在原生 macOS 菜单栏面板中显示 DSH 会话、工具、状态与审批事件，并可直接允许或拒绝。 | [![GitHub stars](https://img.shields.io/github/stars/cdxiaodong/dsh-island?style=flat&label=stars)](https://github.com/cdxiaodong/dsh-island/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 开发与运维
 
