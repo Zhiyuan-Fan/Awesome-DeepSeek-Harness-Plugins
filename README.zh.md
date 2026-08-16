@@ -270,6 +270,9 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - 默认拒绝的自动权限策略，含受保护路径与凭据检查；歧义工具调用会使用脱敏后的分类器兜底。 / Fail-closed automatic-permission policy with protected-path and credential checks, plus a redacted classifier fallback for ambiguous tool calls.
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) - 通过 Intiface 或 MonsterParty 控制兼容个人设备；可选 Intiface 助手会在缺失时下载固定版本、经 SHA-256 校验的上游引擎。 / Control compatible personal devices through Intiface or MonsterParty; the optional helper downloads a pinned, SHA-256-verified upstream engine when absent.
+- [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-plugin) - 浏览器自动化 Skill，支持通过显式工具在所需浏览器缺失或过期时下载对应地区的 Tabbit Browser 安装器。 / Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从已授权源码生成并复核 Function、MCP 与 Agent Skill 包的 3 个 DSH Skills bundle（固定版本 v1.1.3）。 / A three-skill DSH bundle for generating and reviewing Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - 面向远程、多用户 DSH Web 的登录网关，提供 HTTPS、配额、沙箱限制与审计日志。 / Login gateway for remote, multi-user DSH Web access, with HTTPS, quotas, sandbox restrictions, and audit logs.
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - 离线、确定性的 DSH 基础上下文压缩替代实现，并提供 append-only 会话日志的回溯工具。 / Offline deterministic replacement for the DSH basic compaction seam, with append-only-log recall tools.

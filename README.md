@@ -318,6 +318,7 @@ flowchart LR
 
 ## Browser, Computer Use & Remote Execution
 
+- [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-plugin) - Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.
 - [ego-browser](https://github.com/Fisfzy/ego-browser) - Chromium agent browser with semantic snapshots, controls, screenshots, CDP, and isolated workspaces.
 - [dsh-browser](https://github.com/Lum1104/dsh-browser) - Chrome sidebar extension for direct browser operation without vision capabilities.
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) - Signed-in browser access through Kimi WebBridge tools.
@@ -347,6 +348,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - Fail-closed automatic-permission policy with protected-path and credential checks, plus redacted classifier fallback for ambiguous tool calls.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - DSH bundle of three skills that generate and review Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
@@ -373,6 +375,7 @@ flowchart LR
 
 ## Creative & Personal
 
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) - Control compatible personal devices through Intiface or MonsterParty; the optional Intiface helper downloads a pinned, SHA-256-verified upstream engine when absent.
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) - Select text, attach annotations, and send structured feedback with a message.
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) - Edit user and system-prompt sections with live preview.
 - [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) - Animated pixel-whale companion for the Web UI.
