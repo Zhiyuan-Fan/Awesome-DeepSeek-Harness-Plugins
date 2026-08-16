@@ -79,6 +79,7 @@
 
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
+| [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) | 为 DSH 增加由 OpenViking 支持的自动回忆、会话采集、受保护的 viking:// URI 与模型可调用记忆工具。 | [![GitHub stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat&label=stars)](https://github.com/volcengine/OpenViking/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 提供跨会话、分支感知的长期记忆、复盘、技能与任务跟踪。 | [![GitHub stars](https://img.shields.io/github/stars/csyangwen/dsh-memory-evolve?style=flat&label=stars)](https://github.com/csyangwen/dsh-memory-evolve/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 通过持久化变更账本回退对话与工作区状态。 | [![GitHub stars](https://img.shields.io/github/stars/Anionex/dsh-turn-rewind?style=flat&label=stars)](https://github.com/Anionex/dsh-turn-rewind/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | 将 Mnemon 集成为带运行时回忆与可搜索档案的本地记忆系统。 | [![GitHub stars](https://img.shields.io/github/stars/omdsh-dev/dsh-mnemon?style=flat&label=stars)](https://github.com/omdsh-dev/dsh-mnemon/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
