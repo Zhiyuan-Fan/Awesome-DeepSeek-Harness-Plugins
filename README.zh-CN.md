@@ -108,6 +108,7 @@
 | [dsh-md-notes](https://github.com/XieZongChen/dsh-md-notes) | 在 DSH Web 侧栏中增加本地 Markdown 笔记采集、编辑、预览与整理。 | [![GitHub stars](https://img.shields.io/github/stars/XieZongChen/dsh-md-notes?style=flat&label=stars)](https://github.com/XieZongChen/dsh-md-notes/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 无需维护额外索引，即可搜索 DSH 与其他智能体会话日志。 | [![GitHub stars](https://img.shields.io/github/stars/Tieboyh/dsh-session-search?style=flat&label=stars)](https://github.com/Tieboyh/dsh-session-search/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-session-pause](https://github.com/watericetangcw/dsh-session-pause) | 在当前轮次排空后暂停 DSH 会话、持久化状态，并可在重启后恢复。 | [![GitHub stars](https://img.shields.io/github/stars/watericetangcw/dsh-session-pause?style=flat&label=stars)](https://github.com/watericetangcw/dsh-session-pause/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 把一个会话里 Agent 写过的所有文件汇总成一屏审阅面板，被拒绝的写入不计入改动数。 | [![GitHub stars](https://img.shields.io/github/stars/sjh9714/dsh-what-changed?style=flat&label=stars)](https://github.com/sjh9714/dsh-what-changed/stargazers) | <details><summary>0 个页面</summary><sub>暂无已验证引用。</sub></details> |
 
 ## 循环与调度
 
