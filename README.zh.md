@@ -270,6 +270,10 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - 为同一工作区的并行 DSH 会话提供文件认领/释放保护，含过期心跳接管与待处理三路合并区。 / File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
+- [dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) - 基于官方 session-query 与 subprocess 接缝，按需通过 `context_query`、`context_slice`、`context_grep` 读取已持久化会话历史。 / On-demand context tools over persisted session history, using the official session-query and subprocess seams.
+- [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) - 将原生、Code Mode 与内嵌工具调用失败按错因去重写入本地维护的 Skill 区段；落盘前会脱敏已支持的秘密模式。 / Deduplicates failed tool calls into a locally maintained skill section; supported secret patterns are redacted before persistence.
+- [dsh-figma-to-lottie](https://github.com/zimai233/dsh-figma-to-lottie) - 将 SVG 路径与关键帧数据编译为自包含的 Lottie JSON 动画文件。 / Compile SVG paths and keyframe data into self-contained Lottie JSON animation files.
 - [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - 面向 GitHub 与 GitLab 的可配置 DSH 原生代码评审 bundle，写操作默认拒绝，并支持本地回放。 / Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
 - [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - 遵循模型适配器实际声明档位的 Codex 风格会话模型与思考强度选择器，并为自定义 provider 提供只读声明指引。 / Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
 - [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - 默认拒绝的自动权限策略，含受保护路径与凭据检查；歧义工具调用会使用脱敏后的分类器兜底。 / Fail-closed automatic-permission policy with protected-path and credential checks, plus a redacted classifier fallback for ambiguous tool calls.

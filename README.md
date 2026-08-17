@@ -245,6 +245,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Productivity & Agent Workflow
 
+- [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - File claim/release protection for parallel DSH sessions in one workspace, with stale-heartbeat takeover and a pending three-way-merge area.
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) - Permanent Codex-style Git worktrees, agent tools, `/worktree`, and per-repository manifests.
 - [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) - Codex-style `@file` mentions that search a workspace and attach file contents to prompts.
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) - Open a DSH workspace directly in VS Code from the Web UI.
@@ -263,6 +264,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Context, Memory & Observability
 
+- [dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) - On-demand `context_query`, `context_slice`, and `context_grep` tools over persisted session history, using the official session-query and subprocess seams.
 - [co-engram](https://github.com/Co-Engram/Co-Engram) - Self-evolving team memory as plain Markdown in git: 38 bare-name memory tools on `ctx.tools` plus a `memory:co-engram` prompt section re-evaluated at every assembly; ships a `dsh.bundle` manifest so `dsh plugin add @co-engram/dsh` activates with zero manual config; process-lock coexistence with its Claude Code (MCP) and OpenClaw hosts; verified against DSH 0.1.0-rc.6.
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - Offline, deterministic replacement for DSH's basic compaction seam, with recall tools for the append-only session log.
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - Versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories; verified against DSH 0.1.0-rc.6.
@@ -309,6 +311,7 @@ flowchart LR
   Agent --> Output["Updated design, code, or artifact"]
 ```
 
+- [dsh-figma-to-lottie](https://github.com/zimai233/dsh-figma-to-lottie) - Compile SVG paths and keyframe data into self-contained Lottie JSON animation files.
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) - OpenPencil integration with multi-frame previews, an interactive canvas, and managed editor workbenches.
 - [dsh-genui](https://github.com/omdsh-dev/dsh-genui) - Render interactive components, charts, forms, Mermaid, and 3D scenes inline in replies with an action loop back to the agent.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Web preview and element annotation feedback for source editing.
@@ -351,6 +354,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) - Deduplicates failed native, Code Mode, and inline tool calls into a locally maintained skill section; supported secret patterns are redacted before persistence.
 - [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
 - [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - Fail-closed automatic-permission policy with protected-path and credential checks, plus redacted classifier fallback for ambiguous tool calls.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - DSH bundle of three skills that generate and review Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).
