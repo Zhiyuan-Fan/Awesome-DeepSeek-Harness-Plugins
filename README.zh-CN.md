@@ -40,6 +40,8 @@
 | [dsh-deliberation-presets](https://github.com/Greenhand-monster/dsh-deliberation-presets) | 提供三种实验性 DeepSeek Harness 预设，在保持工具连续性的同时分离推理与工具执行。 | [![GitHub stars](https://img.shields.io/github/stars/Greenhand-monster/dsh-deliberation-presets?style=flat&label=stars)](https://github.com/Greenhand-monster/dsh-deliberation-presets/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-everything-oauth](https://github.com/kam74515-boop/dsh-everything-oauth) | 导入 Codex、Grok、Claude、OpenCode 等工具现有的本地 OAuth 会话。 | [![GitHub stars](https://img.shields.io/github/stars/kam74515-boop/dsh-everything-oauth?style=flat&label=stars)](https://github.com/kam74515-boop/dsh-everything-oauth/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [model-catalog](https://github.com/JohnXu22786/model-catalog) | 从 OpenAI 兼容主机自动发现模型列表、价格与能力，归一化为即用配置。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/model-catalog?style=flat&label=stars)](https://github.com/JohnXu22786/model-catalog/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
 ## 工具与技能
 
 | Project | 一句话简介 | Stars | 引用网页 |
@@ -98,6 +100,21 @@
 | [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) | 提供用于收藏、整理、搜索与共享 URL 集合的 MCP 服务端。 | [![GitHub stars](https://img.shields.io/github/stars/Piccolo123/url-manager-mcp?style=flat&label=stars)](https://github.com/Piccolo123/url-manager-mcp/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-plugins](https://github.com/SuTang-vain/dsh-plugins) | 打包用于确定性探针电池与证据档案仪表盘的动态 Cordis 插件。 | [![GitHub stars](https://img.shields.io/github/stars/SuTang-vain/dsh-plugins?style=flat&label=stars)](https://github.com/SuTang-vain/dsh-plugins/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [skill-framework](https://github.com/JohnXu22786/skill-framework) | 将工程方法论技能库（Agent Skills）打包为插件，通过 ctx.skills 以 Cordis 插件形式提供。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/skill-framework?style=flat&label=stars)](https://github.com/JohnXu22786/skill-framework/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [skill-manager](https://github.com/JohnXu22786/skill-manager) | 多区域技能发现、渐进式披露、创建向导、审计与统计。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/skill-manager?style=flat&label=stars)](https://github.com/JohnXu22786/skill-manager/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [command-scout](https://github.com/JohnXu22786/command-scout) | 扫描项目声明的构建命令（Makefile、package.json scripts、justfile、deno tasks）并作为 agent 工具暴露。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/command-scout?style=flat&label=stars)](https://github.com/JohnXu22786/command-scout/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [browser-automation](https://github.com/JohnXu22786/browser-automation) | 真实浏览器自动化 MCP 服务器：导航、点击、填表、截图与 JS 执行，由无障碍快照驱动。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/browser-automation?style=flat&label=stars)](https://github.com/JohnXu22786/browser-automation/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [snippet-expander](https://github.com/JohnXu22786/snippet-expander) | 发送前的行内 #tag 快捷展开，支持多库、别名、变量与递归防护。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/snippet-expander?style=flat&label=stars)](https://github.com/JohnXu22786/snippet-expander/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [spec-driven](https://github.com/JohnXu22786/spec-driven) | 规格驱动开发纪律技能、工具与模板：先验证假设，防止过度工程与范围蔓延。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/spec-driven?style=flat&label=stars)](https://github.com/JohnXu22786/spec-driven/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [file-planning](https://github.com/JohnXu22786/file-planning) | 磁盘持久化执行规划：里程碑状态机、依赖标注、审计与复盘纪要。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/file-planning?style=flat&label=stars)](https://github.com/JohnXu22786/file-planning/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [adversarial-review](https://github.com/JohnXu22786/adversarial-review) | 对抗式多视角代码审查：并行攻击视角、静态哨兵与严重度定级。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/adversarial-review?style=flat&label=stars)](https://github.com/JohnXu22786/adversarial-review/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [docgen](https://github.com/JohnXu22786/docgen) | 纯提示词的文档生成技能：README、PR 描述、changelog 与代码审查。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/docgen?style=flat&label=stars)](https://github.com/JohnXu22786/docgen/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [docs-retriever](https://github.com/JohnXu22786/docs-retriever) | 版本化库文档检索 MCP 服务器，零运行时依赖。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/docs-retriever?style=flat&label=stars)](https://github.com/JohnXu22786/docs-retriever/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [statusline](https://github.com/JohnXu22786/statusline) | 实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/statusline?style=flat&label=stars)](https://github.com/JohnXu22786/statusline/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [task-board](https://github.com/JohnXu22786/task-board) | 跨会话事件溯源工作台账：任务跟踪、审计历史与看板导出。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/task-board?style=flat&label=stars)](https://github.com/JohnXu22786/task-board/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [codegraph](https://github.com/JohnXu22786/codegraph) | 代码知识图谱：将符号、调用点与导入索引到 SQLite，回答调用/依赖问题。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/codegraph?style=flat&label=stars)](https://github.com/JohnXu22786/codegraph/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [computer-control](https://github.com/JohnXu22786/computer-control) | 桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作、确认流程与紧急停止。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/computer-control?style=flat&label=stars)](https://github.com/JohnXu22786/computer-control/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
 ## 会话与存储
 
 | Project | 一句话简介 | Stars | 引用网页 |
@@ -124,6 +141,10 @@
 | [dsh-log-memory](https://github.com/says693/dsh-log-memory) | 防止误关活跃浏览器窗口，并将会话日志增量备份为原始归档或可读文本。 | [![GitHub stars](https://img.shields.io/github/stars/says693/dsh-log-memory?style=flat&label=stars)](https://github.com/says693/dsh-log-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 无需维护额外索引，即可搜索 DSH 与其他智能体会话日志。 | [![GitHub stars](https://img.shields.io/github/stars/Tieboyh/dsh-session-search?style=flat&label=stars)](https://github.com/Tieboyh/dsh-session-search/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 增加会话级改动审阅面板，汇总变更文件与编辑次数，并排除被拒绝的写入。 | [![GitHub stars](https://img.shields.io/github/stars/sjh9714/dsh-what-changed?style=flat&label=stars)](https://github.com/sjh9714/dsh-what-changed/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
+| [memory-vault](https://github.com/JohnXu22786/memory-vault) | 提供跨会话持久记忆：SQLite 本地存储，经 Web 与 MCP 接口进行关键词/语义混合检索。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/memory-vault?style=flat&label=stars)](https://github.com/JohnXu22786/memory-vault/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [context-pruner](https://github.com/JohnXu22786/context-pruner) | 整理并修剪陈旧、重复、失败与过大的会话上下文，节省 token 预算。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/context-pruner?style=flat&label=stars)](https://github.com/JohnXu22786/context-pruner/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [session-titler](https://github.com/JohnXu22786/session-titler) | 双阶段会话标题生成：忙碌时即时关键词标题，空闲时由经济模型精修。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/session-titler?style=flat&label=stars)](https://github.com/JohnXu22786/session-titler/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 循环与调度
 
@@ -169,6 +190,11 @@
 | [dsh-plugin-container](https://github.com/GHJIVHIDD/dsh-plugin-container) | 增加 DSH Web Docker 监控与控制面板、智能体工具及默认只观察模式。 | [![GitHub stars](https://img.shields.io/github/stars/GHJIVHIDD/dsh-plugin-container?style=flat&label=stars)](https://github.com/GHJIVHIDD/dsh-plugin-container/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | 为 DeepSeek Harness 工具调用增加人工审批关卡。 | [![GitHub stars](https://img.shields.io/github/stars/ilharp/dsh-tool-approval?style=flat&label=stars)](https://github.com/ilharp/dsh-tool-approval/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) | 执行危险操作策略，并从规范化工具输出中脱敏凭据。 | [![GitHub stars](https://img.shields.io/github/stars/lonelymoon87/dsh-guardian?style=flat&label=stars)](https://github.com/lonelymoon87/dsh-guardian/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
+| [safety-net](https://github.com/JohnXu22786/safety-net) | 拦截破坏性命令（rm -rf、git reset --hard、push --force）并要求执行前人工确认，可作 dsh 插件或独立 CLI。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/safety-net?style=flat&label=stars)](https://github.com/JohnXu22786/safety-net/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [secret-guard](https://github.com/JohnXu22786/secret-guard) | 阻止 agent 读写敏感文件、掩码工具结果中泄露的密钥，并维护审计日志。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/secret-guard?style=flat&label=stars)](https://github.com/JohnXu22786/secret-guard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [fs-mcp](https://github.com/JohnXu22786/fs-mcp) | 受限本地文件系统 MCP 服务器，把文件访问限定在可配置区域内，零运行时依赖。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/fs-mcp?style=flat&label=stars)](https://github.com/JohnXu22786/fs-mcp/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [pty-runner](https://github.com/JohnXu22786/pty-runner) | 后台 PTY 任务管理：启动长时进程、喂入输入、翻页输出并按需停止。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/pty-runner?style=flat&label=stars)](https://github.com/JohnXu22786/pty-runner/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 界面与客户端
 
@@ -341,6 +367,9 @@
 | [obsidian-dsh-plugin](https://github.com/ubttttt/obsidian-dsh-plugin) | 在 Obsidian 中嵌入 DSH 聊天，并将选中的笔记文本发送到可配置的 Headless 智能体工作区。 | [![GitHub stars](https://img.shields.io/github/stars/ubttttt/obsidian-dsh-plugin?style=flat&label=stars)](https://github.com/ubttttt/obsidian-dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-wechat-maid](https://github.com/Bonny0430/dsh-wechat-maid) | 将个人微信聊天接入 DSH 会话，提供双向镜像、定时任务、主动消息与可选桌宠。 | [![GitHub stars](https://img.shields.io/github/stars/Bonny0430/dsh-wechat-maid?style=flat&label=stars)](https://github.com/Bonny0430/dsh-wechat-maid/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [github-mcp](https://github.com/JohnXu22786/github-mcp) | GitHub 开发者工作台 MCP 服务器，覆盖仓库、issue、PR、代码审查与搜索，零运行时依赖。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/github-mcp?style=flat&label=stars)](https://github.com/JohnXu22786/github-mcp/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [notifier](https://github.com/JohnXu22786/notifier) | 桌面信号插件：任务完成、等待批准或出错时发送通知与提示音。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/notifier?style=flat&label=stars)](https://github.com/JohnXu22786/notifier/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
 ## 开发与运维
 
 | Project | 一句话简介 | Stars | 引用网页 |
@@ -415,6 +444,9 @@
 | [dsh-live-notify](https://github.com/thuang3316/dsh-live-notify) | 显示带会话链接的 DSH 完成或错误 Toast 与浏览器通知，并回放离开期间的事件。 | [![GitHub stars](https://img.shields.io/github/stars/thuang3316/dsh-live-notify?style=flat&label=stars)](https://github.com/thuang3316/dsh-live-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-desktop-shortcut](https://github.com/Yvesgao/dsh-desktop-shortcut) | 创建 Windows 桌面快捷方式，用于启动配置的本地 DSH 服务并在浏览器中打开。 | [![GitHub stars](https://img.shields.io/github/stars/Yvesgao/dsh-desktop-shortcut?style=flat&label=stars)](https://github.com/Yvesgao/dsh-desktop-shortcut/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-sound-notify](https://github.com/Zyy1997/dsh-sound-notify) | 在 DSH 回合完成或智能体开始等待审批时播放可配置的宿主端提示音。 | [![GitHub stars](https://img.shields.io/github/stars/Zyy1997/dsh-sound-notify?style=flat&label=stars)](https://github.com/Zyy1997/dsh-sound-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+
+| [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) | 通用 hooks 兼容层，可在 dsh 上运行 Claude Code、Codex 或 opencode 声明的 hooks。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/hooks-adapter?style=flat&label=stars)](https://github.com/JohnXu22786/hooks-adapter/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) | 任务隔离的 git 工作区，自动创建、同步与收尾的全生命周期管理。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/worktree-mgr?style=flat&label=stars)](https://github.com/JohnXu22786/worktree-mgr/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 贡献
 
