@@ -270,6 +270,8 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 
 ### 近期通过核验的新增 / Recently verified additions
 
+- [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - 面向 GitHub 与 GitLab 的可配置 DSH 原生代码评审 bundle，写操作默认拒绝，并支持本地回放。 / Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
+- [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - 遵循模型适配器实际声明档位的 Codex 风格会话模型与思考强度选择器，并为自定义 provider 提供只读声明指引。 / Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
 - [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - 默认拒绝的自动权限策略，含受保护路径与凭据检查；歧义工具调用会使用脱敏后的分类器兜底。 / Fail-closed automatic-permission policy with protected-path and credential checks, plus a redacted classifier fallback for ambiguous tool calls.
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) - 通过 Intiface 或 MonsterParty 控制兼容个人设备；可选 Intiface 助手会在缺失时下载固定版本、经 SHA-256 校验的上游引擎。 / Control compatible personal devices through Intiface or MonsterParty; the optional helper downloads a pinned, SHA-256-verified upstream engine when absent.
 - [Tabbit Browser for DSH](https://github.com/Tabbit-Browser/dsh-plugin) - 浏览器自动化 Skill，支持通过显式工具在所需浏览器缺失或过期时下载对应地区的 Tabbit Browser 安装器。 / Browser-automation skill with an explicit tool that can download the region-appropriate Tabbit Browser installer when the supported browser is absent or outdated.

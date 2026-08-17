@@ -327,6 +327,7 @@ flowchart LR
 
 ## Interfaces & Web UI
 
+- [dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) - Codex-style session model and reasoning-effort selector that follows adapter-advertised levels, with read-only guidance for custom-provider declarations.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for remote, multi-user DSH Web access, with HTTPS, quotas, sandbox restrictions, and audit logs.
 - [dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) - A two-mode Web UI that provides plain-language tool-call cards while preserving the native view.
 - [dsh-any-background](https://github.com/Tkingxiao/dsh-any-background) - Local-browser theme color, wallpaper, opacity, and blur customization for DSH Web.
@@ -350,6 +351,7 @@ flowchart LR
 
 ## Developer Tooling
 
+- [dsh-reviewer-bot](https://github.com/chaojixinren/dsh-reviewer-bot) - Configurable DSH-native code-review bundle for GitHub and GitLab, with fail-closed write mode and local replay support.
 - [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) - Fail-closed automatic-permission policy with protected-path and credential checks, plus redacted classifier fallback for ambiguous tool calls.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - DSH bundle of three skills that generate and review Function, MCP, and Agent Skill packages from authorized source code (version-pinned at v1.1.3).
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
