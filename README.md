@@ -366,6 +366,7 @@ flowchart LR
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - Routes eligible bash commands through rtk (Rust Token Killer) inside the DSH bash executor to compress tool output and save tokens; safe passthrough when rtk is absent.
 - [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) - Better decoding for UTF-16LE, UTF-8, GBK, and other Bash output encodings.
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) - Manual/ask-mode approval for DSH tools.
+- [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server.
 
 ## Utilities
 
