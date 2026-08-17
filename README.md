@@ -263,6 +263,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 
 ## Context, Memory & Observability
 
+- [co-engram](https://github.com/Co-Engram/Co-Engram) - Self-evolving team memory as plain Markdown in git: 38 bare-name memory tools on `ctx.tools` plus a `memory:co-engram` prompt section re-evaluated at every assembly; ships a `dsh.bundle` manifest so `dsh plugin add @co-engram/dsh` activates with zero manual config; process-lock coexistence with its Claude Code (MCP) and OpenClaw hosts; verified against DSH 0.1.0-rc.6.
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant) - Offline, deterministic replacement for DSH's basic compaction seam, with recall tools for the append-only session log.
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - Versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories; verified against DSH 0.1.0-rc.6.
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) - Per-session and daily API cost, budget, and official-balance tracking for the DSH Web UI, with a history dashboard and one-click official price sync (built against the current dsh web bundle).
