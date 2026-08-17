@@ -338,6 +338,7 @@ flowchart LR
 - [dsh-working-activity](https://github.com/ccch1mneyyy/dsh-working-activity) - Live status line for model activity and tools.
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification) - Desktop notifications for completed turns with outcome and keyword controls.
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) - Browser and prompt notifications for four session states.
+- [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) - Per-lifecycle-event chimes for DSH (startup, tool call, command, approval wait, turn complete, idle) synthesized live with Web Audio — zero audio files — plus a breathing status dot; declarable via a `dsh.bundle` manifest with a Cordis patch.
 - [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) - Open a specified session or workspace directly from a Web UI URL.
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) - Right-edge conversation-node navigation.
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) - Background task progress and live-output status bar.
