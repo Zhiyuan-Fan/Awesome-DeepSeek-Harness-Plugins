@@ -501,7 +501,3 @@
 ## 许可证
 
 [MIT](LICENSE)
-
-## GitHub Stars
-
-[![GitHub Stars](https://img.shields.io/github/stars/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins?style=for-the-badge&logo=github&label=Stars)](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins/stargazers)
