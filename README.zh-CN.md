@@ -502,12 +502,6 @@
 
 [MIT](LICENSE)
 
-## Star 趋势
+## GitHub Stars
 
-<a href="https://www.star-history.com/?repos=Zhiyuan-Fan%2FAwesome-DeepSeek-Harness-Plugins&type=date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins&type=Date&theme=light" />
-    <img alt="Star 趋势图" src="https://api.star-history.com/svg?repos=Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins&type=Date" />
-  </picture>
-</a>
+[![GitHub Stars](https://img.shields.io/github/stars/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins?style=for-the-badge&logo=github&label=Stars)](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins/stargazers)
