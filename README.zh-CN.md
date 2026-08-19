@@ -560,6 +560,7 @@
 | [dsh-sound-notify](https://github.com/Zyy1997/dsh-sound-notify) | 在 DSH 回合完成或智能体开始等待审批时播放可配置的宿主端提示音。 | [![GitHub stars](https://img.shields.io/github/stars/Zyy1997/dsh-sound-notify?style=flat&label=stars)](https://github.com/Zyy1997/dsh-sound-notify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-verify](https://github.com/263311487-ux/dsh-verify) | 通过 CLI、MCP 服务器、GitHub Action 与 DSH bundle 对智能体构建的 Web 应用执行真实浏览器验收检查。 | [![GitHub stars](https://img.shields.io/github/stars/263311487-ux/dsh-verify?style=flat&label=stars)](https://github.com/263311487-ux/dsh-verify/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-fast](https://github.com/PerryLink/dsh-fast) | 报告会话加载、结果溢出、上下文压缩、上下文注入与 LLM 缓存指标，并提供阈值驱动的优化建议。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-fast?style=flat&label=stars)](https://github.com/PerryLink/dsh-fast/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) | 在 DSH 设置页中提供原生插件市场，支持社区目录搜索、标签筛选、插件安装和已安装包查看。 | [![GitHub stars](https://img.shields.io/github/stars/sandbaseai/dsh-plugin-store?style=flat&label=stars)](https://github.com/sandbaseai/dsh-plugin-store/stargazers) | <details><summary>1 个网页</summary><ul><li><a href="https://sandbaseai.github.io/dsh-plugin-store/">DSH Plugin Store</a> · <sub>文档</sub></li></ul></details> |
 
 ## 贡献
 
