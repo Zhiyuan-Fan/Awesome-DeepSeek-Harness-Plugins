@@ -13,6 +13,7 @@ Every entry links to its canonical GitHub repository, current star count, and in
 | Project | Description | Stars | Referenced by |
 | --- | --- | --- | --- |
 | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | A developer-preview agent harness where every capability is a swappable, composable plugin. | [![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=flat&label=stars)](https://github.com/deepseek-ai/deepseek-harness/stargazers) | <details><summary>1 page</summary><ul><li><a href="https://www.deepseek.com/harness/en/">DeepSeek Harness official overview</a> · <sub>Docs</sub></li></ul></details> |
+| [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) | DSH plugin manager & marketplace: one-click enable/disable, multi-source market, static index (500+ plugins / 300 skills), skill install/disable, suite one-click assembly, framework upgrade adapter | [![GitHub stars](https://img.shields.io/github/stars/Noob-stupid/dsh-plugin-hub?style=flat&label=stars)](https://github.com/Noob-stupid/dsh-plugin-hub/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
 **Taxonomy:** Models & Providers · Tools & Skills · Sessions & Storage · Loops & Scheduling · Runtime & Sandboxes · UI & Clients · Integrations · Developer & Operations
 
