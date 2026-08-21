@@ -55,6 +55,7 @@ Projects in each section are ranked by GitHub stars, then by verified reference 
 | [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) | Adds an Ollama provider with model management, health checks, rule-based local routing, and cloud fallback. | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-local-ai?style=flat&label=stars)](https://github.com/PerryLink/dsh-local-ai/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 | [dsh-translate](https://github.com/PerryLink/dsh-translate) | Maps sampling parameters across 11 model vendors and deterministically repairs malformed JSON tool results. | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-translate?style=flat&label=stars)](https://github.com/PerryLink/dsh-translate/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
+| [dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) | Inline reasoning-effort tiers (low/medium/high/max) for custom API models plus per-channel cross-session preference memory that auto-restores your last model and effort in new sessions. |
 ## Tools & Skills
 
 | Project | Description | Stars | Referenced by |
