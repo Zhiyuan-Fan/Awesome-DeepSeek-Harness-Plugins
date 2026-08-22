@@ -435,6 +435,7 @@
 
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
+| [dsh-plugin-graphgpt](https://github.com/BrucePayton/dsh-plugin-graphgpt) | 将经过校验的 GraphGPT YAML 工作流作为原生工具接入 DeepSeek Harness，支持检查、校验、执行、取消与根目录边界控制。 | [![GitHub stars](https://img.shields.io/github/stars/BrucePayton/dsh-plugin-graphgpt?style=flat&label=stars)](https://github.com/BrucePayton/dsh-plugin-graphgpt/stargazers) | <details><summary>1 个网页</summary><sub><a href="https://github.com/deepseek-ai/deepseek-harness/discussions/4035">DeepSeek Harness 讨论</a></sub></details> |
 | [dsh-browser](https://github.com/Lum1104/dsh-browser) | 通过 Chrome 侧边栏让 DeepSeek Harness 直接操作浏览器。 | [![GitHub stars](https://img.shields.io/github/stars/Lum1104/dsh-browser?style=flat&label=stars)](https://github.com/Lum1104/dsh-browser/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [anime-find](https://github.com/cocofhu/anime-find) | 为 DeepSeek Harness 增加多源动漫搜索、Bangumi 元数据卡片与资源浏览。 | [![GitHub stars](https://img.shields.io/github/stars/cocofhu/anime-find?style=flat&label=stars)](https://github.com/cocofhu/anime-find/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-plugin](https://github.com/Tabbit-Browser/dsh-plugin) | 通过内置技能将 DSH 接入 Tabbit Browser，提供浏览器控制、截图与后台安装任务。 | [![GitHub stars](https://img.shields.io/github/stars/Tabbit-Browser/dsh-plugin?style=flat&label=stars)](https://github.com/Tabbit-Browser/dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
