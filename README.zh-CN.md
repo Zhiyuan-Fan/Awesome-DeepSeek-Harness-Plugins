@@ -60,6 +60,7 @@
 
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
+| [dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) | 提供只读 SonarQube 工具，用于检查质量门禁、问题、安全热点、覆盖率、重复率与项目度量。 | [![GitHub stars](https://img.shields.io/github/stars/maxmilian/dsh-sonarqube?style=flat&label=stars)](https://github.com/maxmilian/dsh-sonarqube/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 提供实验性两阶段预设，先使用与 Minimal 对齐的工具，再将会话提升至完整 Standard 工具集。 | [![GitHub stars](https://img.shields.io/github/stars/xiaobright/dsh-anchored-standard?style=flat&label=stars)](https://github.com/xiaobright/dsh-anchored-standard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [modlens](https://github.com/liustack/modlens) | 为 DSH 中的纯文本 DeepSeek 模型增加读图与结构化视觉证据。 | [![GitHub stars](https://img.shields.io/github/stars/liustack/modlens?style=flat&label=stars)](https://github.com/liustack/modlens/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [brooks-lint](https://github.com/hyhmrright/brooks-lint) | 提供兼容 DSH 的代码审查技能，以十二本软件工程著作为依据输出带引用的结构化发现。 | [![GitHub stars](https://img.shields.io/github/stars/hyhmrright/brooks-lint?style=flat&label=stars)](https://github.com/hyhmrright/brooks-lint/stargazers) | <details><summary>1 个网页</summary><ul><li><a href="https://hyhmrright.github.io/brooks-lint/">brooks-lint</a> · <sub>文档</sub></li></ul></details> |
