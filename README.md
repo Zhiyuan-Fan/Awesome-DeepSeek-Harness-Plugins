@@ -591,7 +591,7 @@ Projects in each section are ranked by GitHub stars, then by verified reference 
 
 ## Contributing
 
-Open a pull request, or add the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic to your repository so the curator can find it.
+Open a pull request, or add the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic to your repository so the curator can find it. See [CONTRIBUTING.md](CONTRIBUTING.md) for the submission criteria, bilingual update requirements, ordering rules, and validation checklist.
 
 ## Maintenance
 
