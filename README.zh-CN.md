@@ -267,6 +267,7 @@
 | [dsh-user-steer](https://github.com/wht567/dsh-user-steer) | 通过斜杠命令与 DSH 输入框上方常驻的注入栏，增加执行轮次中的用户引导能力。 | [![GitHub stars](https://img.shields.io/github/stars/wht567/dsh-user-steer?style=flat&label=stars)](https://github.com/wht567/dsh-user-steer/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [file-planning](https://github.com/JohnXu22786/file-planning) | 在工作区本地规划账本中持久化里程碑、步骤状态、依赖、审计事件与复盘，并通过 DSH 工具和 CLI 提供访问。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/file-planning?style=flat&label=stars)](https://github.com/JohnXu22786/file-planning/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) | 检测本地模型达到输出 Token 上限，并自动发送续写消息。 | [![GitHub stars](https://img.shields.io/github/stars/qwert702/dsh-continue-on-limit?style=flat&label=stars)](https://github.com/qwert702/dsh-continue-on-limit/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-rss-daily](https://github.com/shangjian2023/dsh-rss-daily) | 每日新闻简报:定时抓取 46 个精选 RSS 源,由 dsh 内已配置的模型编辑成简报(失败降级规则版),经 webhook 推送到企业微信/Telegram/Server酱/PushDeer/Bark/Gotify,错过时段自动补跑,带 Web 面板。 | [![GitHub stars](https://img.shields.io/github/stars/shangjian2023/dsh-rss-daily?style=flat&label=stars)](https://github.com/shangjian2023/dsh-rss-daily/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
 ## 运行时与沙箱
 
