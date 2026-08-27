@@ -660,6 +660,7 @@
 | [dsh-budget](https://github.com/PerryLink/dsh-budget) | 跟踪 Token 用量、估算费用、碳排与延迟，并执行可配置的会话、每日和每月预算策略。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-budget?style=flat&label=stars)](https://github.com/PerryLink/dsh-budget/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-fast](https://github.com/PerryLink/dsh-fast) | 报告会话加载、结果溢出、上下文压缩、上下文注入与 LLM 缓存指标，并提供阈值驱动的优化建议。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-fast?style=flat&label=stars)](https://github.com/PerryLink/dsh-fast/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | 增加 dsh-guard 升级包装器，提供预检、存储指纹、备份、会话迁移、配置锁、兼容矩阵与漂移警告。 | [![GitHub stars](https://img.shields.io/github/stars/Shizuku-keop/dsh-compat-guard?style=flat&label=stars)](https://github.com/Shizuku-keop/dsh-compat-guard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-plugin-governor-extension](https://github.com/Ghost011118/dsh-plugin-governor-extension) | 基于补丁的 DSH 插件治理扩展：提供清单与白名单控制、策略试运行、运行时工具调用准入规则，并通过 dsh-autostart 实现受控重启和自动回滚。 | [![GitHub stars](https://img.shields.io/github/stars/Ghost011118/dsh-plugin-governor-extension?style=flat&label=stars)](https://github.com/Ghost011118/dsh-plugin-governor-extension/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 贡献
 
