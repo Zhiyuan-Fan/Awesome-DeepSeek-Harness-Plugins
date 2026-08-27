@@ -552,6 +552,8 @@
 | [dsh-observe](https://github.com/PerryLink/dsh-observe) | 将脱敏后的 DSH 追踪及 Token 或费用指标导出至 OTLP 或 Langfuse，支持批处理、重试与持久离线缓冲。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-observe?style=flat&label=stars)](https://github.com/PerryLink/dsh-observe/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-gsv](https://github.com/TaoruiLiu19/dsh-gsv) | 将 DSH 接入 GSV-TTS-Lite，支持可配置音色、流式 WAV 生成、消息朗读控制、健康检查与可选自动旁白。 | [![GitHub stars](https://img.shields.io/github/stars/TaoruiLiu19/dsh-gsv?style=flat&label=stars)](https://github.com/TaoruiLiu19/dsh-gsv/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [unity-dsh-bridge](https://github.com/142gg-GZX/unity-dsh-bridge) | 通过本地 HTTP 桥将 DSH 接入 Unity 或团结引擎，支持场景编辑、C# 脚本、编译、运行模式、截图与输入模拟。 | [![GitHub stars](https://img.shields.io/github/stars/142gg-GZX/unity-dsh-bridge?style=flat&label=stars)](https://github.com/142gg-GZX/unity-dsh-bridge/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) | 为 DSH 增加只读 Grafana 工具，经数据源代理查看实例健康、数据源列表、instant 与 range PromQL 查询、当前告警状态与已配置的告警规则。 | [![GitHub stars](https://img.shields.io/github/stars/maxmilian/dsh-grafana-query?style=flat&label=stars)](https://github.com/maxmilian/dsh-grafana-query/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-odoo](https://github.com/maxmilian/dsh-odoo) | 为 DSH 增加经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read；草稿创建工具需显式开启 allowWrite 才会注册。 | [![GitHub stars](https://img.shields.io/github/stars/maxmilian/dsh-odoo?style=flat&label=stars)](https://github.com/maxmilian/dsh-odoo/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 开发与运维
 
@@ -660,6 +662,7 @@
 | [dsh-budget](https://github.com/PerryLink/dsh-budget) | 跟踪 Token 用量、估算费用、碳排与延迟，并执行可配置的会话、每日和每月预算策略。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-budget?style=flat&label=stars)](https://github.com/PerryLink/dsh-budget/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-fast](https://github.com/PerryLink/dsh-fast) | 报告会话加载、结果溢出、上下文压缩、上下文注入与 LLM 缓存指标，并提供阈值驱动的优化建议。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-fast?style=flat&label=stars)](https://github.com/PerryLink/dsh-fast/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | 增加 dsh-guard 升级包装器，提供预检、存储指纹、备份、会话迁移、配置锁、兼容矩阵与漂移警告。 | [![GitHub stars](https://img.shields.io/github/stars/Shizuku-keop/dsh-compat-guard?style=flat&label=stars)](https://github.com/Shizuku-keop/dsh-compat-guard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-sentry](https://github.com/maxmilian/dsh-sentry) | 为 DSH 增加只读 Sentry 工具：项目列表、议题搜索与详情，以及最新或指定 event 的裁剪堆栈——局部变量、请求数据与疑似机密的 tag 会被移除。 | [![GitHub stars](https://img.shields.io/github/stars/maxmilian/dsh-sentry?style=flat&label=stars)](https://github.com/maxmilian/dsh-sentry/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 贡献
 
