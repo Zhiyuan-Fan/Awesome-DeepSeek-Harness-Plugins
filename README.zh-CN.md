@@ -270,6 +270,7 @@
 | [dsh-selection-memory](https://github.com/niushuanan/dsh-selection-memory) | 提供需源码合入的 DSH 扩展，可引用、讨论或记住所选会话文本，并维护可分别编辑的用户与 AI 记忆库。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-selection-memory?style=flat&label=stars)](https://github.com/niushuanan/dsh-selection-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-context-tree](https://github.com/wr-web/dsh-context-tree) | 为 DSH 增加轨迹树视图，支持精确回合分叉、可复用上下文节点、有界跨会话词法召回与注入来源日志。 | [![GitHub stars](https://img.shields.io/github/stars/wr-web/dsh-context-tree?style=flat&label=stars)](https://github.com/wr-web/dsh-context-tree/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-chat-log](https://github.com/YupegLV/dsh-chat-log) | 在不丢弃其他事件的前提下，把碎片化 DSH 会话事件折叠为可读聊天日志，并通过 /chat 命令和浏览器下载导出。 | [![GitHub stars](https://img.shields.io/github/stars/YupegLV/dsh-chat-log?style=flat&label=stars)](https://github.com/YupegLV/dsh-chat-log/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) | 检测 DSH 服务重启后自动唤醒主 agent：对比上次运行时间、人性化播报中断时长，并把提示消息投递回来让中断的工作自动恢复。仅依赖 cordis ctx 服务，兼容 DSH Desktop 打包环境。 | [![GitHub stars](https://img.shields.io/github/stars/nickkkkkk123123/dsh-resume-on-restart?style=flat&label=stars)](https://github.com/nickkkkkk123123/dsh-resume-on-restart/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 循环与调度
 
