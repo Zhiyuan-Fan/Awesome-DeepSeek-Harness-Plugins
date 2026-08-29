@@ -206,6 +206,11 @@
 | [dsh-synomega](https://github.com/zbc0315/dsh-synomega) | 增加本地有机化学工具，覆盖逆合成、正向预测、路线规划、SynScore、分子演化与会话内结构可视化。 | [![GitHub stars](https://img.shields.io/github/stars/zbc0315/dsh-synomega?style=flat&label=stars)](https://github.com/zbc0315/dsh-synomega/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) | 打包三项 DSH 技能，用于先解读后总结的论文阅读、经用户确认的文献调研，以及演示文稿生成或修订。 | [![GitHub stars](https://img.shields.io/github/stars/zeros335882878/dsh-paper-survey?style=flat&label=stars)](https://github.com/zeros335882878/dsh-paper-survey/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [dsh-research-report](https://github.com/PerryLink/dsh-research-report) | 可验证研究报表：内容寻址证据账本与密封报告。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-=flat&label=stars)](https://github.com/PerryLink/dsh-research-report/stargazers) | <details><summary>0 pages</summary><sub>尚未有已验证引用。</sub></details> |
+| [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) | 行业与公司研究流程：基于分阶段证据产出结构化、可核验的报告。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-=flat&label=stars)](https://github.com/PerryLink/dsh-industry-research/stargazers) | <details><summary>0 pages</summary><sub>尚未有已验证引用。</sub></details> |
+| [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) | 中国公募基金确定性研究报告。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-=flat&label=stars)](https://github.com/PerryLink/dsh-fund-research/stargazers) | <details><summary>0 pages</summary><sub>尚未有已验证引用。</sub></details> |
+| [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) | 确定性的数据画像、清洗与验证流水线，产出结构化报告。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-=flat&label=stars)](https://github.com/PerryLink/dsh-data-quality/stargazers) | <details><summary>0 pages</summary><sub>尚未有已验证引用。</sub></details> |
+| [dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) | 个人指令注入：Web 顶部运行时开关，随包发布中性占位指令。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-=flat&label=stars)](https://github.com/PerryLink/dsh-personal-directive/stargazers) | <details><summary>0 pages</summary><sub>尚未有已验证引用。</sub></details> |
 ## 会话与存储
 
 | Project | 一句话简介 | Stars | 引用网页 |
