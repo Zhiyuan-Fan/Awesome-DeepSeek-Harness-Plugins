@@ -538,6 +538,7 @@
 | [dsh-terminal-tabs](https://github.com/bbboy31/dsh-terminal-tabs) | 为 DSH Web 增加终端视图，展示后台任务数量、流式输出与分页进程，并支持一键终止。 | [![GitHub stars](https://img.shields.io/github/stars/bbboy31/dsh-terminal-tabs?style=flat&label=stars)](https://github.com/bbboy31/dsh-terminal-tabs/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-question-rail](https://github.com/LeonSone/dsh-question-rail) | 为 DSH Web 增加紧凑的右侧问题栏，列出用户回合并平滑滚动定位，且不会随流式输出频繁重渲染。 | [![GitHub stars](https://img.shields.io/github/stars/LeonSone/dsh-question-rail?style=flat&label=stars)](https://github.com/LeonSone/dsh-question-rail/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) | 为 DSH 增加会卖萌、会记账、会弹跳的鲸鱼娘桌宠：实时余额/用量/上下文占用、中键弹弓抛掷、彩蛋气泡、省电模式；安装包 346KB，零新进程。 | [![GitHub stars](https://img.shields.io/github/stars/nickkkkkk123123/dsh-whale-girl?style=flat&label=stars)](https://github.com/nickkkkkk123123/dsh-whale-girl/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
