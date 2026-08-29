@@ -13,6 +13,7 @@
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
 | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | 一个将所有能力实现为可替换、可组合插件的开发者预览版智能体 Harness。 | [![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=flat&label=stars)](https://github.com/deepseek-ai/deepseek-harness/stargazers) | <details><summary>1 个网页</summary><ul><li><a href="https://www.deepseek.com/harness/en/">DeepSeek Harness official overview</a> · <sub>文档</sub></li></ul></details> |
+| [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) | 面向 Agent、基于来源的运行手册，覆盖运行时架构、插件、MCP、Session、沙箱与故障排查。 | [![GitHub stars](https://img.shields.io/github/stars/sandbaseai/deepseek-harness-handbook?style=flat&label=stars)](https://github.com/sandbaseai/deepseek-harness-handbook/stargazers) | <details><summary>1 个网页</summary><ul><li><a href="https://sandbaseai.github.io/deepseek-harness-handbook/">手册首页</a> · <sub>文档</sub></li></ul></details> |
 
 **分类体系：** 模型与提供商 · 工具与技能 · 会话与存储 · 循环与调度 · 运行时与沙箱 · 界面与客户端 · 集成 · 开发与运维
 

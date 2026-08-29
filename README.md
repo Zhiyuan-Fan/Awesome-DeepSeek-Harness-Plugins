@@ -13,6 +13,7 @@ Every entry links to its canonical GitHub repository, current star count, and in
 | Project | Description | Stars | Referenced by |
 | --- | --- | --- | --- |
 | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | A developer-preview agent harness where every capability is a swappable, composable plugin. | [![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/deepseek-harness?style=flat&label=stars)](https://github.com/deepseek-ai/deepseek-harness/stargazers) | <details><summary>1 page</summary><ul><li><a href="https://www.deepseek.com/harness/en/">DeepSeek Harness official overview</a> · <sub>Docs</sub></li></ul></details> |
+| [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) | Source-backed, Agent-first operator guides for runtime architecture, plugins, MCP, Sessions, sandboxing, and troubleshooting. | [![GitHub stars](https://img.shields.io/github/stars/sandbaseai/deepseek-harness-handbook?style=flat&label=stars)](https://github.com/sandbaseai/deepseek-harness-handbook/stargazers) | <details><summary>1 page</summary><ul><li><a href="https://sandbaseai.github.io/deepseek-harness-handbook/">Handbook homepage</a> · <sub>Docs</sub></li></ul></details> |
 
 **Taxonomy:** Models & Providers · Tools & Skills · Sessions & Storage · Loops & Scheduling · Runtime & Sandboxes · UI & Clients · Integrations · Developer & Operations
 
