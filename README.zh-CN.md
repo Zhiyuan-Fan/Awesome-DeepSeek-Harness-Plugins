@@ -348,6 +348,7 @@
 | [dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) | 执行危险操作策略，并从规范化工具输出中脱敏凭据。 | [![GitHub stars](https://img.shields.io/github/stars/lonelymoon87/dsh-guardian?style=flat&label=stars)](https://github.com/lonelymoon87/dsh-guardian/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | 为 DeepSeek Harness 工具调用增加人工审批关卡。 | [![GitHub stars](https://img.shields.io/github/stars/ilharp/dsh-tool-approval?style=flat&label=stars)](https://github.com/ilharp/dsh-tool-approval/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [secret-guard](https://github.com/JohnXu22786/secret-guard) | 阻止常见敏感文件访问、掩码工具输出中的密钥形态、记录审计日志并提供检查工具，同时明确其绕过边界。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/secret-guard?style=flat&label=stars)](https://github.com/JohnXu22786/secret-guard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-plugin-auto-review](https://github.com/delef/dsh-plugin-auto-review) | 通过已配置的 DSH LLM 路由自动审核原生工具审批请求，并提供 Web 控件与故障关闭处理。 | [![GitHub stars](https://img.shields.io/github/stars/delef/dsh-plugin-auto-review?style=flat&label=stars)](https://github.com/delef/dsh-plugin-auto-review/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 界面与客户端
 
