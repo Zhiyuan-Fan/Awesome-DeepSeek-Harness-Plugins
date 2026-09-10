@@ -308,6 +308,7 @@
 | [dsh-resume-on-restart](https://github.com/nickkkkkk123123/dsh-resume-on-restart) | 服务重启后向 DSH 主智能体通知停机时长和上次活跃会话，可选唤醒，由智能体判断如何继续。 | [![GitHub stars](https://img.shields.io/github/stars/nickkkkkk123123/dsh-resume-on-restart?style=flat&label=stars)](https://github.com/nickkkkkk123123/dsh-resume-on-restart/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-selection-memory](https://github.com/niushuanan/dsh-selection-memory) | 提供需源码合入的 DSH 扩展，可引用、讨论或记住所选会话文本，并维护可分别编辑的用户与 AI 记忆库。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-selection-memory?style=flat&label=stars)](https://github.com/niushuanan/dsh-selection-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-context-tree](https://github.com/wr-web/dsh-context-tree) | 为 DSH 增加轨迹树视图，支持精确回合分叉、可复用上下文节点、有界跨会话词法召回与注入来源日志。 | [![GitHub stars](https://img.shields.io/github/stars/wr-web/dsh-context-tree?style=flat&label=stars)](https://github.com/wr-web/dsh-context-tree/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) | 将 DSH 接入 Busabase，用于工作区知识、结构化记录与人工审阅的 ChangeRequest。 | [![GitHub stars](https://img.shields.io/github/stars/busabase/busabase-dsh-plugin?style=flat&label=stars)](https://github.com/busabase/busabase-dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 循环与调度
 
