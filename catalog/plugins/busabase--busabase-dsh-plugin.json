@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "busabase/busabase-dsh-plugin",
+  "name": "busabase-dsh-plugin",
+  "repository": "https://github.com/busabase/busabase-dsh-plugin",
+  "category": "memory",
+  "description": {
+    "en": "Connects DeepSeek Harness to Busabase for workspace knowledge, structured records, and reviewable ChangeRequests.",
+    "zh": "将 DeepSeek Harness 接入 Busabase，用于工作区知识、结构化记录和可审阅的 ChangeRequest。"
+  },
+  "added": "2026-09-10"
+}
