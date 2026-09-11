@@ -73,7 +73,7 @@
 
 | Project | 一句话简介 | Stars | 引用网页 |
 | --- | --- | --- | --- |
-| [WeKnora](https://github.com/Tencent/WeKnora) | 通过官方 DSH 插件将 WeKnora 的文档导入、混合检索、智能体问答和记忆工具接入知识工作区。 | [![GitHub stars](https://img.shields.io/github/stars/Tencent/WeKnora?style=flat&label=stars)](https://github.com/Tencent/WeKnora/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [WeKnora](https://github.com/Tencent/WeKnora) | 通过 WeKnora 官方 DSH 插件提供四个只读工具，用于知识库列表、混合段落检索、文档阅读和带引用回答。 | [![GitHub stars](https://img.shields.io/github/stars/Tencent/WeKnora?style=flat&label=stars)](https://github.com/Tencent/WeKnora/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [modlens](https://github.com/liustack/modlens) | 为 DSH 中的纯文本 DeepSeek 模型增加读图与结构化视觉证据。 | [![GitHub stars](https://img.shields.io/github/stars/liustack/modlens?style=flat&label=stars)](https://github.com/liustack/modlens/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 提供实验性两阶段预设，先使用与 Minimal 对齐的工具，再将会话提升至完整 Standard 工具集。 | [![GitHub stars](https://img.shields.io/github/stars/xiaobright/dsh-anchored-standard?style=flat&label=stars)](https://github.com/xiaobright/dsh-anchored-standard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [BrowserSkill](https://github.com/Tencent/BrowserSkill) | 通过配套浏览器扩展与 CLI，将 DSH 智能体连接到真实的已登录浏览器进行后台自动化。 | [![GitHub stars](https://img.shields.io/github/stars/Tencent/BrowserSkill?style=flat&label=stars)](https://github.com/Tencent/BrowserSkill/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
