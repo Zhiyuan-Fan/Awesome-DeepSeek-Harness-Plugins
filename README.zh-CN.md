@@ -846,7 +846,7 @@
 
 ## 贡献
 
-欢迎提交 Pull Request；也可以为仓库添加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic，让维护任务发现它。
+欢迎提交 Pull Request；也可以为仓库添加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic，让维护任务发现它。提交标准、双语更新要求、排序规则与校验清单请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 维护
 
