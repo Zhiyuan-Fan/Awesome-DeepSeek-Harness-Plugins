@@ -69,6 +69,7 @@
 | [dsh-model-hub](https://github.com/yhyfhgs/dsh-model-hub) | 通过仅监听本机回环地址的 DSH 服务，统一提供方登录、模型元数据、默认选择、Composer 路由与 /model 命令。 | [![GitHub stars](https://img.shields.io/github/stars/yhyfhgs/dsh-model-hub?style=flat&label=stars)](https://github.com/yhyfhgs/dsh-model-hub/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-poor-router](https://github.com/yishengdaxiaonengjihui/dsh-poor-router) | 在低成本或免费模型池之间路由 DSH 请求，提供健康跟踪、用量账本、Thompson Sampling 选择与自动故障转移。 | [![GitHub stars](https://img.shields.io/github/stars/yishengdaxiaonengjihui/dsh-poor-router?style=flat&label=stars)](https://github.com/yishengdaxiaonengjihui/dsh-poor-router/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-llm-codex](https://github.com/zzjxmy/dsh-llm-codex) | 为 DSH 模型接口增加 ChatGPT 订阅适配器，支持 PKCE 或设备 OAuth、令牌刷新与 Codex Responses 转发。 | [![GitHub stars](https://img.shields.io/github/stars/zzjxmy/dsh-llm-codex?style=flat&label=stars)](https://github.com/zzjxmy/dsh-llm-codex/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-autotier](https://github.com/PerryLink/dsh-autotier) | 在强/廉模型档位之间路由 DSH 请求：意图门控落档、plan 模式交接（强模型规划、廉价模型执行）、确定性高风险护栏、TTL 升级回退与 /tier 命令。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-autotier?style=flat&label=stars)](https://github.com/PerryLink/dsh-autotier/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 工具与技能
 
@@ -370,6 +371,7 @@
 | [aifred-dsh-task-ledger](https://github.com/qiaoji1990-alt/aifred-dsh-task-ledger) | 增加与提供方无关的 DSH 任务生命周期工具，以幂等事件账本为后端，并可选接入 Aifred 桥。 | [![GitHub stars](https://img.shields.io/github/stars/qiaoji1990-alt/aifred-dsh-task-ledger?style=flat&label=stars)](https://github.com/qiaoji1990-alt/aifred-dsh-task-ledger/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) | 检测本地模型达到输出 Token 上限，并自动发送续写消息。 | [![GitHub stars](https://img.shields.io/github/stars/qwert702/dsh-continue-on-limit?style=flat&label=stars)](https://github.com/qwert702/dsh-continue-on-limit/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-verify-reflux](https://github.com/zouyuanqing/dsh-verify-reflux) | 为带固定种子的 best-of-N 竞赛增加分层 Logprob、采样与模板评审器，并把分层上下文反馈回 DSH 工作流。 | [![GitHub stars](https://img.shields.io/github/stars/zouyuanqing/dsh-verify-reflux?style=flat&label=stars)](https://github.com/zouyuanqing/dsh-verify-reflux/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms) | 加入持久化、跨会话的多 Agent 团队房间：成员、消息总线、共享任务板、审批门控交接与共享时间线，重启后仍然保留。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-team-rooms?style=flat&label=stars)](https://github.com/PerryLink/dsh-team-rooms/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 运行时与沙箱
 
