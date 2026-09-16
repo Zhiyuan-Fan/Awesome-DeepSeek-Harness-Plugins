@@ -236,6 +236,7 @@
 | [dsh-synomega](https://github.com/zbc0315/dsh-synomega) | 增加本地有机化学工具，覆盖逆合成、正向预测、路线规划、SynScore、分子演化与会话内结构可视化。 | [![GitHub stars](https://img.shields.io/github/stars/zbc0315/dsh-synomega?style=flat&label=stars)](https://github.com/zbc0315/dsh-synomega/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) | 打包三项 DSH 技能，用于先解读后总结的论文阅读、经用户确认的文献调研，以及演示文稿生成或修订。 | [![GitHub stars](https://img.shields.io/github/stars/zeros335882878/dsh-paper-survey?style=flat&label=stars)](https://github.com/zeros335882878/dsh-paper-survey/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [dsh-capability-resolver](https://github.com/striveh/dsh-capability-resolver) | 提供只读、本地优先的能力解析器，将需求与已配置的 DSH 工具和技能匹配，并以有界证据排序社区插件候选。 | [![GitHub stars](https://img.shields.io/github/stars/striveh/dsh-capability-resolver?style=flat&label=stars)](https://github.com/striveh/dsh-capability-resolver/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 ## 会话与存储
 
 | Project | 一句话简介 | Stars | 引用网页 |
