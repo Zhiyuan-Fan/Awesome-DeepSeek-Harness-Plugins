@@ -639,6 +639,7 @@
 | [dsh-question-rail](https://github.com/LeonSone/dsh-question-rail) | 为 DSH Web 增加紧凑的右侧问题栏，列出用户回合并平滑滚动定位，且不会随流式输出频繁重渲染。 | [![GitHub stars](https://img.shields.io/github/stars/LeonSone/dsh-question-rail?style=flat&label=stars)](https://github.com/LeonSone/dsh-question-rail/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-vscode-desktop](https://github.com/Shonean/deepseek-harness-vscode-desktop) | 提供 DSH 的 VS Code 与桌面客户端，支持流式对话、行内 Diff、文件与选区上下文、审批、计划审阅及共享内核插件。 | [![GitHub stars](https://img.shields.io/github/stars/Shonean/deepseek-harness-vscode-desktop?style=flat&label=stars)](https://github.com/Shonean/deepseek-harness-vscode-desktop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) | 提供 DeepSeek Harness 的原生 SwiftUI macOS 客户端：多个运行时版本并存、升级后跑 8 项自检并在阻断项失败时一次性回退、安全模式恢复，并内置微信/手机远控。 | [![GitHub stars](https://img.shields.io/github/stars/DanielW203/dsh-native-macos?style=flat&label=stars)](https://github.com/DanielW203/dsh-native-macos/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
