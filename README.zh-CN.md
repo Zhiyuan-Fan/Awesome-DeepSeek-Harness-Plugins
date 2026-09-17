@@ -883,6 +883,7 @@
 | [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) | 打包锁定版本的 DSH 插件迁移技能与接缝扫描器，覆盖 0.1.3-alpha.1 到 0.1.5-rc.1 的升级路径。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-plugin-upgrade-015?style=flat&label=stars)](https://github.com/PerryLink/dsh-plugin-upgrade-015/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) | 从本地会话记录生成 DSH 用量看板，展示 Token、模型估算成本、趋势与活动热力图，并支持价格覆盖。 | [![GitHub stars](https://img.shields.io/github/stars/syncended/deepseek-harness-usage?style=flat&label=stars)](https://github.com/syncended/deepseek-harness-usage/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [dsh-tidewatch](https://github.com/proDreams/dsh-tidewatch) | 在支持本地化的 DSH Web 卡片中展示 DeepSeek API 峰谷时段、倒计时、会话 Token 用量和逐模型成本估算。 | [![GitHub stars](https://img.shields.io/github/stars/proDreams/dsh-tidewatch?style=flat&label=stars)](https://github.com/proDreams/dsh-tidewatch/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 ## 贡献
 
 欢迎提交 Pull Request；也可以为仓库添加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic，让维护任务发现它。
