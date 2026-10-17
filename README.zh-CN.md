@@ -777,6 +777,7 @@
 | [dsh-wechat](https://github.com/PerryLink/dsh-wechat) | 通过腾讯 iLink 将 DSH 会话接入微信，支持文本与媒体传输、工作区控制、审批卡片、提问和扫码登录。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-wechat?style=flat&label=stars)](https://github.com/PerryLink/dsh-wechat/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-herdr](https://github.com/wenhao4126/dsh-herdr) | 将 DSH 接入已安装的 Herdr CLI，提供工作区、标签页、Pane、命令、编码智能体启动、完成等待与结果读取工具。 | [![GitHub stars](https://img.shields.io/github/stars/wenhao4126/dsh-herdr?style=flat&label=stars)](https://github.com/wenhao4126/dsh-herdr/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-netshell](https://github.com/xgone/dsh-netshell) | 为 DSH Web 加入本地与 SSH 终端，提供三级命令权限、AI 发起高风险命令的审批和凭据存储。 | [![GitHub stars](https://img.shields.io/github/stars/xgone/dsh-netshell?style=flat&label=stars)](https://github.com/xgone/dsh-netshell/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [kicad-mcp-dsh-plugin](https://github.com/chunhuachaolu-art/kicad-mcp-dsh-plugin) | 将 kicad-mcp-pro 桥入 DSH 的 MCP 工具族：读取 KiCad 原理图与 PCB、运行 ERC/DRC、BOM/DFM 检查与生产文件导出。 | [![GitHub stars](https://img.shields.io/github/stars/chunhuachaolu-art/kicad-mcp-dsh-plugin?style=flat&label=stars)](https://github.com/chunhuachaolu-art/kicad-mcp-dsh-plugin/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 开发与运维
 
