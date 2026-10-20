@@ -418,6 +418,7 @@
 | [dsh-teamwork](https://github.com/niushuanan/dsh-teamwork) | 提供需源码合入的 DSH 协作扩展，由一个协调 Agent 默认调用原生子 Agent，并按需接入外部编码专家。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-teamwork?style=flat&label=stars)](https://github.com/niushuanan/dsh-teamwork/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [aifred-dsh-task-ledger](https://github.com/qiaoji1990-alt/aifred-dsh-task-ledger) | 增加与提供方无关的 DSH 任务生命周期工具，以幂等事件账本为后端，并可选接入 Aifred 桥。 | [![GitHub stars](https://img.shields.io/github/stars/qiaoji1990-alt/aifred-dsh-task-ledger?style=flat&label=stars)](https://github.com/qiaoji1990-alt/aifred-dsh-task-ledger/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-verify-reflux](https://github.com/zouyuanqing/dsh-verify-reflux) | 为带固定种子的 best-of-N 竞赛增加分层 Logprob、采样与模板评审器，并把分层上下文反馈回 DSH 工作流。 | [![GitHub stars](https://img.shields.io/github/stars/zouyuanqing/dsh-verify-reflux?style=flat&label=stars)](https://github.com/zouyuanqing/dsh-verify-reflux/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-global-todo](https://github.com/LUgABeEEE/dsh-global-todo) | 增加跨会话待办清单：人与 Agent 读写同一份 JSON 文件，记录加入时间，可挂文档与链接，步骤作为编号计划派发，完成需人确认。 | [![GitHub stars](https://img.shields.io/github/stars/LUgABeEEE/dsh-global-todo?style=flat&label=stars)](https://github.com/LUgABeEEE/dsh-global-todo/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 运行时与沙箱
 
