@@ -953,6 +953,7 @@
 | [dsh-health](https://github.com/Shizuku-keop/dsh-health) | 从日志或实时事件诊断 DSH 会话循环，以可审计证据评估振荡、停滞、参数漂移、工具失败、Token 与压缩健康。 | [![GitHub stars](https://img.shields.io/github/stars/Shizuku-keop/dsh-health?style=flat&label=stars)](https://github.com/Shizuku-keop/dsh-health/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) | 从本地会话记录生成 DSH 用量看板，展示 Token、模型估算成本、趋势与活动热力图，并支持价格覆盖。 | [![GitHub stars](https://img.shields.io/github/stars/syncended/deepseek-harness-usage?style=flat&label=stars)](https://github.com/syncended/deepseek-harness-usage/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-flow](https://github.com/weibaohui/dsh-flow) | 将 DSH 会话事件可视化为实时执行流程，展示工具调用、审批、重试与压缩事件。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-flow?style=flat&label=stars)](https://github.com/weibaohui/dsh-flow/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-ctx-budget](https://github.com/LUgABeEEE/dsh-ctx-budget) | 审计 agent 每轮请求都要背负的静态上下文：六层基线、能力地图失效路径、SKILL.md 描述压缩、记忆重复/过期体检与按分数的分层归档，以及从会话日志推算的工具面与冷启动静态上下文。默认只读，写操作需要 --apply 且先备份。 | [![GitHub stars](https://img.shields.io/github/stars/LUgABeEEE/dsh-ctx-budget?style=flat&label=stars)](https://github.com/LUgABeEEE/dsh-ctx-budget/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
 ## 贡献
 
