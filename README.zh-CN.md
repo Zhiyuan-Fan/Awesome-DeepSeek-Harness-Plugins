@@ -693,6 +693,7 @@
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-vscode-desktop](https://github.com/Shonean/deepseek-harness-vscode-desktop) | 提供 DSH 的 VS Code 与桌面客户端，支持流式对话、行内 Diff、文件与选区上下文、审批、计划审阅及共享内核插件。 | [![GitHub stars](https://img.shields.io/github/stars/Shonean/deepseek-harness-vscode-desktop?style=flat&label=stars)](https://github.com/Shonean/deepseek-harness-vscode-desktop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-ambient](https://github.com/weibaohui/dsh-ambient) | 在 DSH 中播放本地氛围音，提供悬浮播放器、目录场景、播放模式与定时关闭。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-ambient?style=flat&label=stars)](https://github.com/weibaohui/dsh-ambient/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) | 为 DSH Web 增加实时双向思维导图，基于 Mind Elixir：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图，并支持 PNG 导出和在桌面应用中打开。 | [![GitHub stars](https://img.shields.io/github/stars/SSShooter/dsh-mindmap-live?style=flat&label=stars)](https://github.com/SSShooter/dsh-mindmap-live/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
