@@ -953,6 +953,7 @@
 | [dsh-health](https://github.com/Shizuku-keop/dsh-health) | 从日志或实时事件诊断 DSH 会话循环，以可审计证据评估振荡、停滞、参数漂移、工具失败、Token 与压缩健康。 | [![GitHub stars](https://img.shields.io/github/stars/Shizuku-keop/dsh-health?style=flat&label=stars)](https://github.com/Shizuku-keop/dsh-health/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) | 从本地会话记录生成 DSH 用量看板，展示 Token、模型估算成本、趋势与活动热力图，并支持价格覆盖。 | [![GitHub stars](https://img.shields.io/github/stars/syncended/deepseek-harness-usage?style=flat&label=stars)](https://github.com/syncended/deepseek-harness-usage/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-flow](https://github.com/weibaohui/dsh-flow) | 将 DSH 会话事件可视化为实时执行流程，展示工具调用、审批、重试与压缩事件。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-flow?style=flat&label=stars)](https://github.com/weibaohui/dsh-flow/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [BugGPS](https://github.com/lijiaqi-AI-Product-Manager/dsh-bug-gps) | 录制浏览器问题、固定预期，并通过独立原代码对照复核修复。DSH 0.2.1-rc.5 headless/web。 | [![GitHub stars](https://img.shields.io/github/stars/lijiaqi-AI-Product-Manager/dsh-bug-gps?style=flat&label=stars)](https://github.com/lijiaqi-AI-Product-Manager/dsh-bug-gps/stargazers) | <details><summary>0 个网页</summary><sub>暂无已核实的引用网页。</sub></details> |
 
 ## 贡献
 
