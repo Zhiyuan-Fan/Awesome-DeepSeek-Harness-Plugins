@@ -693,6 +693,7 @@
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-vscode-desktop](https://github.com/Shonean/deepseek-harness-vscode-desktop) | 提供 DSH 的 VS Code 与桌面客户端，支持流式对话、行内 Diff、文件与选区上下文、审批、计划审阅及共享内核插件。 | [![GitHub stars](https://img.shields.io/github/stars/Shonean/deepseek-harness-vscode-desktop?style=flat&label=stars)](https://github.com/Shonean/deepseek-harness-vscode-desktop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-ambient](https://github.com/weibaohui/dsh-ambient) | 在 DSH 中播放本地氛围音，提供悬浮播放器、目录场景、播放模式与定时关闭。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-ambient?style=flat&label=stars)](https://github.com/weibaohui/dsh-ambient/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-artifacts](https://github.com/modusensus/dsh-artifacts) | 把会话交付过的图片、视频、文件和链接收进一个侧边栏产物架，按内容哈希去重；带分类标签与计数、搜索、视频缩略图、灯箱查看、手动收藏链接、粘贴图片、上传（≤25MB），并在首次启动时回填历史会话日志。 | [![GitHub stars](https://img.shields.io/github/stars/modusensus/dsh-artifacts?style=flat&label=stars)](https://github.com/modusensus/dsh-artifacts/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
