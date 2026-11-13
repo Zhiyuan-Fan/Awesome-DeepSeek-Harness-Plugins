@@ -795,6 +795,7 @@
 | [dsh-wechat](https://github.com/PerryLink/dsh-wechat) | 通过腾讯 iLink 将 DSH 会话接入微信，支持文本与媒体传输、工作区控制、审批卡片、提问和扫码登录。 | [![GitHub stars](https://img.shields.io/github/stars/PerryLink/dsh-wechat?style=flat&label=stars)](https://github.com/PerryLink/dsh-wechat/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-herdr](https://github.com/wenhao4126/dsh-herdr) | 将 DSH 接入已安装的 Herdr CLI，提供工作区、标签页、Pane、命令、编码智能体启动、完成等待与结果读取工具。 | [![GitHub stars](https://img.shields.io/github/stars/wenhao4126/dsh-herdr?style=flat&label=stars)](https://github.com/wenhao4126/dsh-herdr/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-netshell](https://github.com/xgone/dsh-netshell) | 为 DSH Web 加入本地与 SSH 终端，提供三级命令权限、AI 发起高风险命令的审批和凭据存储。 | [![GitHub stars](https://img.shields.io/github/stars/xgone/dsh-netshell?style=flat&label=stars)](https://github.com/xgone/dsh-netshell/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-connectors](https://github.com/gabrielbav/dsh-connectors) | 在设置中新增“连接器”页面，通过 OAuth 或令牌连接远程 MCP 服务器：内置 Granola、Linear、Jira 与 Confluence、Trello、GitHub、GitLab 和 Azure DevOps，并支持自定义 MCP 地址和其他插件提供的连接器包；令牌保存在 DSH 凭据存储中。 | [![GitHub stars](https://img.shields.io/github/stars/gabrielbav/dsh-connectors?style=flat&label=stars)](https://github.com/gabrielbav/dsh-connectors/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 开发与运维
 
