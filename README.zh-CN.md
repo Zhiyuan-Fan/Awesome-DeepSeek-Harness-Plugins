@@ -352,6 +352,7 @@
 | [dsh-memory](https://github.com/navid-kianfar/dsh-memory) | 以 DuckDB 为 DSH 增加项目级记忆，支持决策与上下文检索、规则持续注入、模型工具、可选语义召回及 Web 管理面板。 | [![GitHub stars](https://img.shields.io/github/stars/navid-kianfar/dsh-memory?style=flat&label=stars)](https://github.com/navid-kianfar/dsh-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-selection-memory](https://github.com/niushuanan/dsh-selection-memory) | 提供需源码合入的 DSH 扩展，可引用、讨论或记住所选会话文本，并维护可分别编辑的用户与 AI 记忆库。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-selection-memory?style=flat&label=stars)](https://github.com/niushuanan/dsh-selection-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-context-compressor](https://github.com/qwert702/dsh-context-compressor) | 压缩当前对话，在同一工作区新建会话，并将摘要注入为起始上下文。 | [![GitHub stars](https://img.shields.io/github/stars/qwert702/dsh-context-compressor?style=flat&label=stars)](https://github.com/qwert702/dsh-context-compressor/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-plugin-session-delete](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-session-delete) | 永久删除会话：DSH 只能归档会话，删除工作区也会留下其中的会话。本插件添加垃圾桶按钮和菜单项，可删除会话（连同其子代理会话）或删除工作区及其全部会话，且绝不动仍在运行或被其他进程打开的会话。 | [![GitHub stars](https://img.shields.io/github/stars/gabrielbav/dsh-workspace?style=flat&label=stars)](https://github.com/gabrielbav/dsh-workspace/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 循环与调度
 
