@@ -453,6 +453,7 @@
 | [secret-guard](https://github.com/JohnXu22786/secret-guard) | 阻止常见敏感文件访问、掩码工具输出中的密钥形态、记录审计日志并提供检查工具，同时明确其绕过边界。 | [![GitHub stars](https://img.shields.io/github/stars/JohnXu22786/secret-guard?style=flat&label=stars)](https://github.com/JohnXu22786/secret-guard/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-guardian](https://github.com/lonelymoon87/dsh-guardian) | 执行危险操作策略，并从规范化工具输出中脱敏凭据。 | [![GitHub stars](https://img.shields.io/github/stars/lonelymoon87/dsh-guardian?style=flat&label=stars)](https://github.com/lonelymoon87/dsh-guardian/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | 为 DeepSeek Harness 工具调用增加人工审批关卡。 | [![GitHub stars](https://img.shields.io/github/stars/ilharp/dsh-tool-approval?style=flat&label=stars)](https://github.com/ilharp/dsh-tool-approval/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-code](https://github.com/gabrielbav/dsh-code) | 自托管的 Codex 云端式编码会话：选择 GitHub 仓库和分支，每个会话都有独立的检出和分支、所构建应用的实时预览和环境标签页，全部运行在 gVisor 沙箱中（非 root、无 capabilities、无 Docker 套接字），流量经过出站白名单，新主机由你逐个批准；你的 GitHub 令牌从不进入沙箱。可在本机或通过 SSH 在你自己的虚拟机上运行。 | [![GitHub stars](https://img.shields.io/github/stars/gabrielbav/dsh-code?style=flat&label=stars)](https://github.com/gabrielbav/dsh-code/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 界面与客户端
 
