@@ -254,6 +254,7 @@
 | [dsh-search](https://github.com/YUANMINGXUE/dsh-search) | 通过 CDP 驱动本机 Chromium 浏览器，为 DSH 增加 browser_search 与 browser_fetch 工具，无需搜索 API Key 或云端提供方。 | [![GitHub stars](https://img.shields.io/github/stars/YUANMINGXUE/dsh-search?style=flat&label=stars)](https://github.com/YUANMINGXUE/dsh-search/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-synomega](https://github.com/zbc0315/dsh-synomega) | 增加本地有机化学工具，覆盖逆合成、正向预测、路线规划、SynScore、分子演化与会话内结构可视化。 | [![GitHub stars](https://img.shields.io/github/stars/zbc0315/dsh-synomega?style=flat&label=stars)](https://github.com/zbc0315/dsh-synomega/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) | 打包三项 DSH 技能，用于先解读后总结的论文阅读、经用户确认的文献调研，以及演示文稿生成或修订。 | [![GitHub stars](https://img.shields.io/github/stars/zeros335882878/dsh-paper-survey?style=flat&label=stars)](https://github.com/zeros335882878/dsh-paper-survey/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-pitfall-memory](https://github.com/kysr04/dsh-pitfall-memory) | 为 DSH 增加一个本地错题本：重复出现的失败被整理成带检测信号和可执行修法的 Markdown 条目，同类任务开工前先检索。 | [![GitHub stars](https://img.shields.io/github/stars/kysr04/dsh-pitfall-memory?style=flat&label=stars)](https://github.com/kysr04/dsh-pitfall-memory/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 会话与存储
 
