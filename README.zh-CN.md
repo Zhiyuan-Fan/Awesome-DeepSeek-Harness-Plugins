@@ -953,6 +953,7 @@
 | [dsh-health](https://github.com/Shizuku-keop/dsh-health) | 从日志或实时事件诊断 DSH 会话循环，以可审计证据评估振荡、停滞、参数漂移、工具失败、Token 与压缩健康。 | [![GitHub stars](https://img.shields.io/github/stars/Shizuku-keop/dsh-health?style=flat&label=stars)](https://github.com/Shizuku-keop/dsh-health/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-usage](https://github.com/syncended/deepseek-harness-usage) | 从本地会话记录生成 DSH 用量看板，展示 Token、模型估算成本、趋势与活动热力图，并支持价格覆盖。 | [![GitHub stars](https://img.shields.io/github/stars/syncended/deepseek-harness-usage?style=flat&label=stars)](https://github.com/syncended/deepseek-harness-usage/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-flow](https://github.com/weibaohui/dsh-flow) | 将 DSH 会话事件可视化为实时执行流程，展示工具调用、审批、重试与压缩事件。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-flow?style=flat&label=stars)](https://github.com/weibaohui/dsh-flow/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-rust-anything](https://github.com/lonyness/dsh-rust-anything) | 将 rust-anything 接入 DSH，可记录原函数的行为，再用相同输入回放 Rust 实现并比较输出。 | [![GitHub stars](https://img.shields.io/github/stars/lonyness/dsh-rust-anything?style=flat&label=stars)](https://github.com/lonyness/dsh-rust-anything/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 贡献
 
