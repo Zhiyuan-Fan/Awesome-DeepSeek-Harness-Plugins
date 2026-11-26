@@ -693,6 +693,7 @@
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-vscode-desktop](https://github.com/Shonean/deepseek-harness-vscode-desktop) | 提供 DSH 的 VS Code 与桌面客户端，支持流式对话、行内 Diff、文件与选区上下文、审批、计划审阅及共享内核插件。 | [![GitHub stars](https://img.shields.io/github/stars/Shonean/deepseek-harness-vscode-desktop?style=flat&label=stars)](https://github.com/Shonean/deepseek-harness-vscode-desktop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-ambient](https://github.com/weibaohui/dsh-ambient) | 在 DSH 中播放本地氛围音，提供悬浮播放器、目录场景、播放模式与定时关闭。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-ambient?style=flat&label=stars)](https://github.com/weibaohui/dsh-ambient/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-gta6](https://github.com/manyuemeiquqi/dsh-gta6) | 基于 GTA VI 官方主视觉的 Vice City 主题：通缉星级接 Agent 运行状态，工具调用行按动作分色，右栏显示会话标题、token、模型与推理档位。 | [![GitHub stars](https://img.shields.io/github/stars/manyuemeiquqi/dsh-gta6?style=flat&label=stars)](https://github.com/manyuemeiquqi/dsh-gta6/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
