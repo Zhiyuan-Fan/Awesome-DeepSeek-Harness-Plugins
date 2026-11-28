@@ -693,6 +693,7 @@
 | [dsh-multi-window](https://github.com/niushuanan/dsh-multi-window) | 提供需源码合入的 DSH Web 扩展，可并排运行多个会话，并隔离导航、草稿与运行时状态。 | [![GitHub stars](https://img.shields.io/github/stars/niushuanan/dsh-multi-window?style=flat&label=stars)](https://github.com/niushuanan/dsh-multi-window/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [deepseek-harness-vscode-desktop](https://github.com/Shonean/deepseek-harness-vscode-desktop) | 提供 DSH 的 VS Code 与桌面客户端，支持流式对话、行内 Diff、文件与选区上下文、审批、计划审阅及共享内核插件。 | [![GitHub stars](https://img.shields.io/github/stars/Shonean/deepseek-harness-vscode-desktop?style=flat&label=stars)](https://github.com/Shonean/deepseek-harness-vscode-desktop/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-ambient](https://github.com/weibaohui/dsh-ambient) | 在 DSH 中播放本地氛围音，提供悬浮播放器、目录场景、播放模式与定时关闭。 | [![GitHub stars](https://img.shields.io/github/stars/weibaohui/dsh-ambient?style=flat&label=stars)](https://github.com/weibaohui/dsh-ambient/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
+| [dsh-plugin-agentdeck](https://github.com/mantou132/dsh-plugin-agentdeck) | 零配置 DSH 手机远程控制插件，配合开源端到端加密的 AgentDeck（iOS/Android）使用：自动安装配置 ACP 与 `agentdeckd` 并开机自启，设置页提供配对二维码与防休眠开关。 | [![GitHub stars](https://img.shields.io/github/stars/mantou132/dsh-plugin-agentdeck?style=flat&label=stars)](https://github.com/mantou132/dsh-plugin-agentdeck/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
 ## 集成
 
