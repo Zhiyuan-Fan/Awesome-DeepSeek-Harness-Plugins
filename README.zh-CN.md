@@ -255,6 +255,8 @@
 | [dsh-synomega](https://github.com/zbc0315/dsh-synomega) | 增加本地有机化学工具，覆盖逆合成、正向预测、路线规划、SynScore、分子演化与会话内结构可视化。 | [![GitHub stars](https://img.shields.io/github/stars/zbc0315/dsh-synomega?style=flat&label=stars)](https://github.com/zbc0315/dsh-synomega/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 | [dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) | 打包三项 DSH 技能，用于先解读后总结的论文阅读、经用户确认的文献调研，以及演示文稿生成或修订。 | [![GitHub stars](https://img.shields.io/github/stars/zeros335882878/dsh-paper-survey?style=flat&label=stars)](https://github.com/zeros335882878/dsh-paper-survey/stargazers) | <details><summary>0 个网页</summary><sub>暂无已验证的引用网页。</sub></details> |
 
+| [google-trends-for-agent](https://github.com/meka-im/google-trends-for-agent) | 免费开源（MIT）的 Google Trends 插件与 pytrends 替代品，提供 4 个原生工具与侧边栏仪表盘，基于 59 个 Google Ads 锚点校准真实日搜索量，支持本机直连与开源/自部署 Actor 一键切换。 | [![GitHub stars](https://img.shields.io/github/stars/meka-im/google-trends-for-agent?style=flat&label=stars)](https://github.com/meka-im/google-trends-for-agent/stargazers) | <details><summary>1 page</summary><ul><li><a href="https://meka.im/google-trends-for-agent">google-trends-for-agent 文档与 59 个开源锚点</a> · <sub>Docs</sub></li></ul></details> |
+
 ## 会话与存储
 
 | Project | 一句话简介 | Stars | 引用网页 |

@@ -255,6 +255,8 @@ Projects in each section are ranked by GitHub stars, then by verified reference 
 | [dsh-synomega](https://github.com/zbc0315/dsh-synomega) | Adds local organic-chemistry tools for retrosynthesis, forward prediction, route planning, SynScore, molecular evolution, and in-chat structure visualisation. | [![GitHub stars](https://img.shields.io/github/stars/zbc0315/dsh-synomega?style=flat&label=stars)](https://github.com/zbc0315/dsh-synomega/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 | [dsh-paper-survey](https://github.com/zeros335882878/dsh-paper-survey) | Bundles three DSH skills for interpret-first paper reading, user-confirmed literature surveys, and generated or revised presentation decks. | [![GitHub stars](https://img.shields.io/github/stars/zeros335882878/dsh-paper-survey?style=flat&label=stars)](https://github.com/zeros335882878/dsh-paper-survey/stargazers) | <details><summary>0 pages</summary><sub>No verified references yet.</sub></details> |
 
+| [google-trends-for-agent](https://github.com/meka-im/google-trends-for-agent) | Free MIT Google Trends plugin & pytrends alternative for DSH with 4 native tools, sidebar dashboard, 59 Google Ads anchors for daily search volume calibration, and 1-click local/Apify Actor switching. | [![GitHub stars](https://img.shields.io/github/stars/meka-im/google-trends-for-agent?style=flat&label=stars)](https://github.com/meka-im/google-trends-for-agent/stargazers) | <details><summary>1 page</summary><ul><li><a href="https://meka.im/google-trends-for-agent">google-trends-for-agent docs &amp; 59 open anchors</a> · <sub>Docs</sub></li></ul></details> |
+
 ## Sessions & Storage
 
 | Project | Description | Stars | Referenced by |
